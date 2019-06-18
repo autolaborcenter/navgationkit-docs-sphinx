@@ -19,3 +19,5 @@
     3. [恢复BIOS](user_guide/restore_bios/doc.md)
 
     4. [安装OS](user_guide/reinstall_os/doc.md)
+
+    5. [参考资料](user_guide/reference/doc.md)
