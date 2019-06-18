@@ -1,16 +1,16 @@
-# 恢复BIOS
+# 恢复 BIOS
 
-    如果你不小心更改了主板 BIOS 配置，本文将引导你如何恢复主板BIOS到最佳设置
+    如果你不小心更改了主板 BIOS 配置，本文将引导你如何恢复主板 BIOS 到最佳设置
 
 ## 准备
 
-* 存有主板BIOS配置文件的 Autolabor OS 镜像盘 *1
+* 存有主板 BIOS 配置文件的 Autolabor OS 镜像盘 *1
 
 ## 开始
 
 ![](./imgs/restore_bios.gif)
 
-> 主板BIOS配置文件可以联系售后客服获取
+> 主板 BIOS 配置文件可以联系售后客服获取
 
 ## 常见问题
 
