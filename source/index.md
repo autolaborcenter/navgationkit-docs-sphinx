@@ -8,7 +8,7 @@
 
     2. [技术规格](introduction/tech_specs/doc.md)
 
-    3. [包装内容](introduction/inthebox/)
+    3. [包装内容](introduction/inthebox/doc.md)
 
 * 使用指南
 
