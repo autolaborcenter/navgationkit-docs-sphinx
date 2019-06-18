@@ -6,14 +6,25 @@
 
 ## 组装
 
+* Comming soon
 
 ## 测试
 
+我们提供了一套工具软件，并将其放置在电脑桌面，你可以用来检测导航套件中各部件能否正常工作
+
+![](./imgs/desktop.png)
+
 1. 激光雷达测试
+
+![](./imgs/lidar_test.png)
 
 2. 惯导测试
 
+![](./imgs/imu_test.png)
+
 3. Kinect测试
+
+![](./imgs/kinect_test.png)
 
 4. 联合测试
 
