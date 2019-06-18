@@ -1,5 +1,7 @@
 # 组装与测试
 
+    本文将引导你安装导航套件并对各部件进行测试
+
 ## 电气拓扑
 
 ![](./imgs/autolabor_box_v1_electrical_topology.png)
