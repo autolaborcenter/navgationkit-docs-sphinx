@@ -6,11 +6,25 @@
 
 | 项目                 | 规格            |
 | ------------------- | --------------- |
-| CPU        | AMD Ryzen3 2200G         | 
+| CPU        | AMD Ryzen3 2200G          | 
 | 主板       | 技嘉 GA-AB350N-Gaming WIFI|
 | 内存       | 威刚 万紫千红 DDR4 4GB    |
 | 硬盘       | 威刚 SP580 120GB         |
 | 电源       | 立人 LR1108 (150W)       |
+
+* AMD Ryzen3 2200G \*
+| 项目              | 规格                      |
+| ---------------- | --------------------------|
+| 核心频率          | 3.5 GHz                   |
+| 加速频率          | 3.7 GHz                   |
+| 核心/线程         | 4/4                       |
+| GPU核心           | 4                         |
+| 核显              | Radeon Vega 8 1100 MHz    |
+| FP16（half）      | 2.253 TFLOPS （2：1）     |
+| FP32（float）     | 1,126 GFLOPS              |
+| FP64（double）    | 70.40 GFLOPS （1:16）     |
+
+> \* 附CPU性能天梯图供参考 https://www.mydrivers.com/zhuanti/tianti/cpu/index.html
 
 * 电源组件
 
