@@ -6,9 +6,10 @@
 
 ![](./imgs/autolabor_box_v1_electrical_topology.png)
 
+
 ## 组装
 
-* Comming soon
+    详请参照视频
 
 ## 测试
 
