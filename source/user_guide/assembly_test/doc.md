@@ -21,7 +21,7 @@
 
 ![](./imgs/lidar_test.png)
 
-2. IMU测试
+2. 惯导测试
 
 ![](./imgs/imu_test.png)
 

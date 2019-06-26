@@ -8,7 +8,7 @@
 
 > http://www.faselase.com/chanpinshuomingshuxiazai.html
 
-* 瑞芬星通 AH100B IMU
+* 瑞芬星通 AH100B 惯导
 
 > http://rion-star.com/cpzx/gxdh/AH100B/2018/0204/112.html
 
