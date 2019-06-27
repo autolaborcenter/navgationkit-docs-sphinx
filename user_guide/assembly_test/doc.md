@@ -4,12 +4,13 @@
 
 ## 电气拓扑
 
-![](./imgs/autolabor_box_v1_electrical_topology.png)
+![](./imgs/autolabor_box_v2_electrical_topology.png)
 
+> Autolabor Box 1.0 的 用户请参考: <a href="./imgs/autolabor_box_v1_electrical_topology.png" >      Autolabor Box 1.0 电气拓扑图</a>
 
 ## 组装
 
-    详请参照视频
+详请参照视频
 
 ## 测试
 
@@ -21,7 +22,7 @@
 
 ![](./imgs/lidar_test.png)
 
-2. IMU测试
+2. 惯导测试 (Autolabor Box 2.0 用户无需使用该工具)
 
 ![](./imgs/imu_test.png)
 
@@ -30,6 +31,8 @@
 ![](./imgs/kinect_test.png)
 
 4. 联合测试
+
+    点击`开始建图`，尝试使用键盘方向键控制小车运动。
 
 ## 常见问题
 
@@ -43,6 +46,14 @@
 
     众所周知，AMD旗下CPU最大的特点就是~~发热量大~~ 性能强劲，并且工控机内部结构十分紧凑，只有风扇维持在较高转速才保证系统正常工作
 
-* “为什么我看不到Kinect的数据？”
+* “为什么我看不到 Kinect 的数据？”
 
-    Kinect-Hub的数据线另一端必须插在工控机 `USB3.0` 接口上，否则将无法从工控机读取到Kinect的数据
+    Kinect-Hub 的数据线另一端必须插在工控机 `USB3.0` 接口上，否则将无法从工控机读取到Kinect的数据
+
+* “ USB-Hub 上面的接口不通用吗？（仅 Autolabor-BOX 2.0 用户）”
+
+    不通用，组装时务必按照文字提示插入设备，错误的接线方式将无法正常建图、定位、避障，甚至危及人身安全
+
+* “为什么建图时无法使用键盘控制小车运动？”
+
+    尝试拔掉多余的鼠标或键盘，最好只保留一把键盘与工控机连接，然后重新尝试建图
