@@ -6,12 +6,11 @@
 
 ![](./imgs/autolabor_box_v2_electrical_topology.png)
 
-
-> Autolabor Box 1.0 的 用户请参考    <a href="./imgs/autolabor_box_v1_electrical_topology.png" >      Autolabor Box 1.0 电气拓扑图</a>
+> Autolabor Box 1.0 的 用户请参考: <a href="./imgs/autolabor_box_v1_electrical_topology.png" >      Autolabor Box 1.0 电气拓扑图</a>
 
 ## 组装
 
-    详请参照视频
+详请参照视频
 
 ## 测试
 
@@ -23,7 +22,7 @@
 
 ![](./imgs/lidar_test.png)
 
-2. 惯导测试
+2. 惯导测试 (Autolabor Box 2.0 用户无需使用该工具)
 
 ![](./imgs/imu_test.png)
 
@@ -32,6 +31,8 @@
 ![](./imgs/kinect_test.png)
 
 4. 联合测试
+
+    点击开始建图，
 
 ## 常见问题
 
