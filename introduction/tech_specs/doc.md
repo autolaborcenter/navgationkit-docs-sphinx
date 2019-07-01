@@ -1,5 +1,3 @@
-# Comming soon
-
 # 技术规格
 
 * Autolabor PC
