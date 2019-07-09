@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>定位循迹 &mdash; Autolabor Box  文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/page.css" type="text/css" />
+    <link rel="index" title="索引" href="../../genindex.html" />
+    <link rel="search" title="搜索" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Autolabor Box
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">定位循迹</a><ul>
+<li><a class="reference internal" href="#id2">功能简介</a></li>
+<li><a class="reference internal" href="#id3">操作步骤</a><ul>
+<li><a class="reference internal" href="#id4">一、搭建定位系统</a><ul>
+<li><a class="reference internal" href="#id5">准备工作</a></li>
+<li><a class="reference internal" href="#id6">开始搭建</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id7">二、循迹</a><ul>
+<li><a class="reference internal" href="#id8">操作步骤</a><ul>
+<li><a class="reference internal" href="#id9">车载定位标签测试</a></li>
+<li><a class="reference internal" href="#id10">激光雷达测试</a></li>
+<li><a class="reference internal" href="#id11">开始导航</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Autolabor Box</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+      <li>定位循迹</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/location/guide/doc.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>定位循迹<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>注：仅室外导航套件含此功能</p>
+<div class="section" id="id2">
+<h2>功能简介<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>定位循迹是机器人循着用户提前录好的轨迹自主行走，行走过程中机器人能够自动躲避障碍物，自动规划路线，达到目标点。可设置多种循迹模式。</p>
+<p>软件上提供了可视化的操作按钮和开发接口，可在行走途中对机器人发送停止/启动的指令，用户可以根据自己的需要对机器人进行二次开发。</p>
+<p>定位循迹使用的定位系统，能够为机器人、自动驾驶车辆、无人机等设备提供 ±2cm 的定位精度。定位系统覆盖范围与定位标签的配置方式和使用个数有关。</p>
+<p><a class="reference internal" href="../marvelmind/doc.html"><span class="doc">&gt;&gt;详细了解定位系统</span></a></p>
+</div>
+<div class="section" id="id3">
+<h2>操作步骤<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<ol class="simple">
+<li><p>搭建定位系统</p></li>
+<li><p>录制轨迹</p></li>
+<li><p>开始循迹</p></li>
+</ol>
+<div class="section" id="id4">
+<h3>一、搭建定位系统<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+<p>定位系统中包含车载定位标签，定位标签，定位路由。</p>
+<p>车载定位标签又称为车载移动定位标签，它安装在车上，随车移动。</p>
+<p>定位标签又称为固定标签，可将标签固定在高处（墙上、支架）或放置在平稳无遮挡的地方，使用的个数取决于用户的需求。</p>
+<p>定位标签包含5个超声波换能器，收发各个方向的超声信号。
+<img alt="../../_images/beacon.png" src="../../_images/beacon.png" />beacon</p>
+<p>定位路由是整个定位系统的中心控制器，系统工作时路由必须一直在线，定位路由中没有电池，必须使用供电电源为它供电，如路由没有电源将会影响定位功能。
+<img alt="../../_images/modem.png" src="../../_images/modem.png" />beacon</p>
+<p><a class="reference internal" href="../marvelmind/doc.html"><span class="doc">&gt;&gt;详细了解定位标签与路由</span></a></p>
+<div class="section" id="id5">
+<h4>准备工作<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h4>
+<ol class="simple">
+<li><p>给定位标签充电
+打开包装，连接 micro USB 线给定位标签充电，可使用手机充电器(5V)、充电宝(5V)或者电脑 USB 接口充电。充电时定位标签上红色 LED 指示灯闪烁，充满电后停止闪烁。从低电量到充满电大概需要1-2小时。</p></li>
+<li><p>打开定位标签开关
+两个拨码开关左侧保持远离 LED 指示灯，右侧为电源开关，拨到靠近 LED 指示灯位置为开。
+<img alt="../../_images/switch.png" src="../../_images/switch.png" />开关</p></li>
+<li><p>打开软件——Dashborad（<a class="reference external" href="#">下载</a>）
+打开 Dashboard 软件，使用 micro USB 线连接标签或路由到电脑，Dashboard 识别后将会显示配置信息。</p></li>
+<li><p>初始化定位路由
+使用micro USB 线将定位路由与电脑连接，点击 Dashboard 右下 Default 按钮加载默认配置。</p></li>
+<li><p>初始化定位标签
+使用micro USB 线将定位标签与电脑连接，点击 Dashboard 右下 Default 按钮加载默认配置，然后查看标签 id (Device address)并标记到标签外壳上方便使用过程中进行区分。也可对标签 id 进行修改，注意不要出现重复的 id。
+建议将标签 id 从1开始设置，逐个递增。</p></li>
+<li><p>初始化车载定位标签
+首先执行上一步操作初始化标签，接着配置 Hedgehog mode 设置为 enable，将配置 Interfaces 的第一个子项 UART speed 设置为115200。</p></li>
+</ol>
+<p><img alt="../../_images/settings.png" src="../../_images/settings.png" />配置</p>
+</div>
+<div class="section" id="id6">
+<h4>开始搭建<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h4>
+<p>以室内4个固定标签为例，快速搭建一个小范围的定位系统（需要4个固定标签+1个车载移动标签+1个路由，关闭其他用不到的标签电源开关），步骤如下：</p>
+<ol class="simple">
+<li><p>固定定位标签</p></li>
+</ol>
+<p>按照以下规则，将已经打开电源开关的4个固定标签固定到墙壁或其他可安装位置上。</p>
+<blockquote>
+<div><p>为减少遮挡的情况，标签位置尽量高，例如1.8m 以上</p>
+</div></blockquote>
+<blockquote>
+<div><p>标签相对地面等高且需要测量出高度值</p>
+</div></blockquote>
+<blockquote>
+<div><p>标签必须两两之间可见（无遮挡、有换能器相对）</p>
+</div></blockquote>
+<blockquote>
+<div><p>标签尽量分散开，避免4个标签中有3个甚至全部在一条直线上</p>
+</div></blockquote>
+<blockquote>
+<div><p>建议任意标签之间的距离控制在20m 以内（理论最大30m）</p>
+</div></blockquote>
+<blockquote>
+<div><p>移动标签应在固定标签围成的区域内部运动，布置固定标签时还应考虑此因素</p>
+</div></blockquote>
+<ol class="simple">
+<li><p>建立地图</p></li>
+</ol>
+<p>打开 Dashboard 连接路由，连接成功后左下角显示 modem。</p>
+<p>如非首次使用，本次标签位置与最后一次建图时位置一致，则可跳过此步骤。</p>
+<p>如重新建图，则需清除路由中可能已经存储的地图，点击设备列表右侧的 Erase map 按钮清除地图，然后点击 Submap 0 按钮。</p>
+<ol class="simple">
+<li><p>点击设备列表中固定标签对应编号唤醒标签，过程大概需要10s。</p></li>
+</ol>
+<p><img alt="../../_images/wakeup.png" src="../../_images/wakeup.png" />wakeup</p>
+<ol class="simple">
+<li><p>点击设备列表中某个在线的标签，则右侧列表为该标签的参数设置。依次设置4个固定标签的 Height 参数为第1步布置的高度，注意单位为 m。</p></li>
+<li><p>地图会自动构建。等待地图显示中四个绿色固定信标位置基本不再变化、左上角距离表全部为白色、且 freeze map 按钮上方显示橙色 <code class="docutils literal notranslate"><span class="pre">Freeze</span> <span class="pre">submap!</span></code> 字样后，点击 freeze map 按钮锁定地图。如果锁定后的地图与实际情况手性相反（例如地图中从1到2到3是逆时针而实际布置的是顺时针），点击镜像按钮<img alt="../../_images/mirror.png" src="../../_images/mirror.png" />map翻转地图。</p></li>
+</ol>
+<p><img alt="../../_images/map.png" src="../../_images/map.png" />map</p>
+<ol class="simple">
+<li><p>类似第3、4步的操作唤醒车载标签并设置车载标签相对地面的高度。</p></li>
+<li><p>定位系统已经开始工作了，车载移动标签在 Dashboard 中查看运动轨迹。之后使用系统定位已经不再依赖 Dashboard 软件，只要给路由供电，数秒后即可从移动标签的串口读取到定位坐标。</p></li>
+</ol>
+<p>注：</p>
+<ul class="simple">
+<li><p>路由连接 Dashboard 可在参数列表中查看所有标签的电量（电压），标签电量过低时界面上会有红色文字提示。</p></li>
+<li><p>停止使用时路由断电即可，1min 后所有标签会自动进入睡眠状态。长时间不使用时请关闭标签电源开关。</p></li>
+</ul>
+<p>以上即完成定位系统的搭建</p>
+</div>
+</div>
+<div class="section" id="id7">
+<h3>二、循迹<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h3>
+<div class="section" id="id8">
+<h4>操作步骤<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h4>
+<ol class="simple">
+<li><p>车载定位标签测试</p></li>
+<li><p>激光雷达测试</p></li>
+<li><p>开始导航</p></li>
+<li><p>录制轨迹</p></li>
+<li><p>保存轨迹</p></li>
+<li><p>开始循迹</p></li>
+<li><p>停止循迹</p></li>
+</ol>
+<div class="section" id="id9">
+<h5>车载定位标签测试<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h5>
+<p>准备工作：</p>
+<ul class="simple">
+<li><p>打开电源模块</p></li>
+<li><p>打开 Mini 计算机（密码 autolabor ）</p></li>
+<li><p>确保所有线材连接正确</p></li>
+</ul>
+<ol class="simple">
+<li><p>确认车载定位标签的 USB 线插正确的 USB-Hub 口上，插上通电后会常亮红色电源灯</p></li>
+<li><p>定位系统设置完毕，定位路由开始工作后，车载定位标签上面会闪着红灯，并发出“哒哒哒…”的高频声音，代表标签功能正常</p></li>
+<li><p>进入桌面测试文件夹，点击标签测试</p></li>
+<li><p>查看 RVIZ 中是否有蓝色的点，如有数据则表示连接正常</p></li>
+</ol>
+<p>常见问题：</p>
+<ul class="simple">
+<li><p>如果使用软件测试时没有显示蓝色数据会有哪些原因？</p>
+<ul>
+<li><p>车载定位标签的 USB 线没有插在 USB-Hub 的指定接口上</p></li>
+<li><p>USB-Hub 的 USB 线没有插在 Mini 计算机的指定接口上</p></li>
+<li><p>车载定位标签的波特率设置错误，正确应为设置为115200，回到上文初始化车载定位标签步骤重新设置</p></li>
+<li><p>Mini 计算机 UBS 设备规则有误</p></li>
+</ul>
+</li>
+<li><p>如果没有显示蓝色数据，那该如何排查？</p>
+<ul>
+<li><p>打开terminal，执行以下内容，查看是否有”box-3”这个设备
+<code class="docutils literal notranslate"><span class="pre">ll</span> <span class="pre">/dev/box-3</span></code></p></li>
+<li><p>如有该设备则检查波特率设置</p></li>
+<li><p>如没有该设备，则检查线材连接</p>
+<ul>
+<li><p>USB-Hub 的指示灯是否亮</p>
+<ul>
+<li><p>如不亮则表示没有插紧</p></li>
+<li><p>如亮则检查规则文件，执行
+<code class="docutils literal notranslate"><span class="pre">vim</span> <span class="pre">/ect/rules.d</span></code></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id10">
+<h5>激光雷达测试<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h5>
+<ol class="simple">
+<li><p>进入桌面测试文件夹，点击雷达测试</p></li>
+<li><p>查看 RVIZ 中是否有黄色激光雷达数据，如有则激光雷达功能正常</p></li>
+</ol>
+<p>常见问题：</p>
+<ul class="simple">
+<li><p>看不到激光雷达数据？</p>
+<ul>
+<li><p>检查激光雷达的数据线两头的连接是否插紧</p></li>
+<li><p>检查激光雷达是否插在 USB-Hub上指定的口，前侧雷达插前雷达，后侧雷达插后雷达</p></li>
+<li><p>USB-Hub 数据线是否插在 Mini 计算机正确的插口上，检查电源连接线</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h5>开始导航<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h5>
+<ol class="simple">
+<li><p>打开开始导航，查看 RVIZ 中 AP1 是否显示为纯白色，如有 AP1 的模型则 AP1 连接正常。</p></li>
+<li><p>使用键盘控制 AP1 遥控走一段路，如从未录制过轨迹，在走的过程中 AP1 在RVIZ 中会持续跳动，此时 AP1 是在进行地图坐标匹配，当 AP1 不再跳动时，则表示稳定。</p></li>
+<li><p>如已经录有历史轨迹，遥控 AP1 走一段后，会直接跳到某一位置，表示 AP1 已经在（定位系统）地图中找到自己的位置</p></li>
+<li><p>点击开始录制，控制 AP1 在目标路径上走一圈</p></li>
+<li><p>保存轨迹</p></li>
+<li><p>按键盘【0】，点击执行，开始循迹</p></li>
+<li><p>如想要停止循迹，按键盘【9】，点击停止，循迹停止</p></li>
+</ol>
+<p>如下次再次使用时，仍是在无需录制轨迹的同一环境中，则可跳过以上4、5步骤，无需录制轨迹，测试完毕后直接执行循迹功能。</p>
+<p>如执行4、5步骤会清楚上一次已保存的地图，请知悉。</p>
+<p>常见问题：</p>
+<ul class="simple">
+<li><p>看不到 AP1 ？</p>
+<ul>
+<li><p>检查 AP1 是否在上位机控制模式</p></li>
+<li><p>检查 AP1 数据线是否插紧</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Autolabor
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

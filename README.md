@@ -1,29 +1,77 @@
-# Autolabor Pro1 导航套件文档主页
+# Autolabor PM1 官方使用手册
 
-### 目录
+本工程是 PM1 底盘官方使用手册的 **`Sphinx` 工程**。
 
-* 产品介绍
+## 克隆项目
 
-    * [产品概览](introduction/overview/doc.md)
+```shell
+git clone https://github.com/autolaborcenter/pm1-docs-sphinx.git
+```
 
-    * [规格参数](introduction/tech_specs/doc.md)
+### 文件说明
 
-    * [发货清单](introduction/inthebox/doc.md)
+* `source` 目录下保存了手册的 markdown 版本。
 
-* 使用指南
+## 编译
 
-    * [收货指南](user_guide/quick_start/receipt.md)
+本工程需要 python3/pip3 环境来编译。
 
-    * [组装与测试](user_guide/assembly_test/doc.md)
+1. 安装 [python](https://www.python.org/) 环境（version ≥ 3.5）
 
-    * 快速开始
-      * [SLAM建图导航](user_guide/quick_start/slam_doc.md)
-      * [定位循迹](location/guide/doc.md)
+   在最新版 [3.7.3](https://www.python.org/downloads/release/python-373/) 发布页选择你的平台。
 
-    * 了解定位系统
-      * [定位系统介绍](location\marvelmind\doc.md)
-      * [定位系统 Dashbord 使用指南](location\dashboard\doc.md)
+2. 安装 [`Sphinx`](https://www.sphinx-doc.org) 环境及扩展
 
-    * [恢复BIOS](user_guide/restore_bios/doc.md)
-    * [安装OS](user_guide/reinstall_os/doc.md)
-    * [参考资料](user_guide/reference/doc.md)
+   进入项目文件夹，执行：
+
+   ```shell
+   make install_environment
+   ```
+
+3. 编译
+
+   进入项目文件夹，执行：
+
+   ```shell
+   make clean html
+   ```
+
+   编译好的静态网站在 `build/html` 目录下。
+
+## 贡献指南
+
+**推送或创建合并申请前，仔细阅读下列要求。请尽量先在本地编译，预览效果。**
+
+### makedown 格式要求
+
+* 使用格式
+
+  * *斜体*用于标识新的概念或语境内含义与通常不同的**词**
+  * **粗体**标识重点和需要特别提醒用户注意的**词语或句子**
+  * `行内引用` 标识嵌入行内的代码
+  * > 引用标识离开文章的出口或大段的注意事项。引用引起的是段落，因此结尾要有标点。
+  * 代码引用注明语言
+    ```markdown
+    \```markdown
+     这是一段代码引用
+    \``` 
+    ```
+
+* 非中文与中文之间空格
+
+  * 英文与中文之间
+    ```markdown
+    当 english 嵌入到中文
+    ```
+  * 数字与中文之间
+    ```markdown
+    数字两边各空 1 格
+    ```
+  * 内嵌引用与中文之间
+    ```markdown
+    一个类名 `ClassName`
+    ```
+  * 全角标点会吸收一个空格
+    ```markdown
+    这个句子后有中文句号。It's not necessary to add a white space before this sentence. 但半角标点与中文之间仍需空格。
+    ```
