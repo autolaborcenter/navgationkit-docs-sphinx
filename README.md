@@ -1,11 +1,11 @@
-# Autolabor PM1 官方使用手册
+# Autolabor 导航套件官方使用手册
 
-本工程是 PM1 底盘官方使用手册的 **`Sphinx` 工程**。
+本工程是 Autolabor 导航套件官方使用手册的 **`Sphinx` 工程**。
 
 ## 克隆项目
 
 ```shell
-git clone https://github.com/autolaborcenter/pm1-docs-sphinx.git
+git clone https://github.com/autolaborcenter/autolabor_box_docs.git
 ```
 
 ### 文件说明
