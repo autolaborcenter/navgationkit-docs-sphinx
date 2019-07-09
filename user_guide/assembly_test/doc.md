@@ -2,44 +2,76 @@
 
     本文将引导你安装导航套件并对各部件进行测试
 
-## 电气拓扑
-
-![](./imgs/autolabor_box_v2_electrical_topology.png)
-
-> Autolabor Box 1.0 的 用户请参考: <a href="./imgs/autolabor_box_v1_electrical_topology.png" >      Autolabor Box 1.0 电气拓扑图</a>
 
 ## 组装
 
 详请参照视频
 
+### 线材连接
+
+#### Mini 计算机
+
+![](imgs/wire-2.jpg)
+
+#### 显示器
+
+![](imgs/wire-1.jpg)
+
+#### 深度相机
+
+![](imgs/wire-3.jpg)
+
+#### 激光雷达
+
+![](imgs/wire-4.jpg)
+
+#### USB-Hub
+
+![](imgs/wire-6.jpg)
+
+注：USB-Hub数据线**必须**插到计算机上**指定插口**（如下图），否则将影响功能。
+
+![](imgs/wire-7.jpg)
+
+#### 定位系统
+
+注：
+* 仅室外导航套件含此组件
+* 仅车载定位标签需要进行线材连接
+
+![](imgs/wire-5.jpg)
+
+
+
+### 电气拓扑
+
+![](./imgs/autolabor_box_v2_electrical_topology.png)
+
+> 导航套件（一代） 的 用户请参考： <a href="./imgs/autolabor_box_v1_electrical_topology.png" >     导航套件（一代）电气拓扑图</a>
+
+
 ## 测试
 
 我们提供了一套工具软件，并将其放置在电脑桌面，你可以用来检测导航套件中各部件能否正常工作
 
-![](./imgs/autolabor_os_desktop.png)
+
 
 1. 激光雷达测试
 
-![](./imgs/lidar_test.png)
 
-2. 惯导测试 (Autolabor Box 2.0 用户无需使用该工具)
 
-![](./imgs/imu_test.png)
+2. 深度相机测试
 
-3. Kinect测试
 
-![](./imgs/kinect_test.png)
 
-4. 联合测试
-
-    点击`开始建图`，尝试使用键盘方向键控制小车运动。
+3. 车载定位标签测试
 
 ## 常见问题
 
 * “电池充电接口、工控机电源接口、Kinect-Hub电源接口可以互换适配器吗？”
 
     少年，劝你别有这么大胆的想法！
-    
+
     尽管这三者物理外形一致，但电气规格`并不通用`，使用时务必注意，错误的接线方式将会导致设备损坏，甚至危及人身安全
 
 * “为什么风扇噪音非常大？”
@@ -50,10 +82,6 @@
 
     Kinect-Hub 的数据线另一端必须插在工控机 `USB3.0` 接口上，否则将无法从工控机读取到Kinect的数据
 
-* “ USB-Hub 上面的接口不通用吗？（仅 Autolabor-BOX 2.0 用户）”
+* “ USB-Hub 上面的接口不通用吗？（仅 导航套件 二代 用户）”
 
     不通用，组装时务必按照文字提示插入设备，错误的接线方式将无法正常建图、定位、避障，甚至危及人身安全
-
-* “为什么建图时无法使用键盘控制小车运动？”
-
-    尝试拔掉多余的鼠标或键盘，最好只保留一把键盘与工控机连接，然后重新尝试建图
