@@ -169,7 +169,9 @@
             
   <div class="section" id="id1">
 <h1>定位循迹<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<p>注：仅室外导航套件含此功能</p>
+<blockquote>
+<div><p>注：仅室外导航套件含此功能</p>
+</div></blockquote>
 <div class="section" id="id2">
 <h2>功能简介<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
 <p>定位循迹是机器人循着用户提前录好的轨迹自主行走，行走过程中机器人能够自动躲避障碍物，自动规划路线，达到目标点。可设置多种循迹模式。</p>
@@ -190,9 +192,9 @@
 <p>车载定位标签又称为车载移动定位标签，它安装在车上，随车移动。</p>
 <p>定位标签又称为固定标签，可将标签固定在高处（墙上、支架）或放置在平稳无遮挡的地方，使用的个数取决于用户的需求。</p>
 <p>定位标签包含5个超声波换能器，收发各个方向的超声信号。</p>
-<p><img alt="../../_images/beacon.png" src="../../_images/beacon.png" />beacon</p>
+<p><img alt="../../_images/beacon.png" src="../../_images/beacon.png" /></p>
 <p>定位路由是整个定位系统的中心控制器，系统工作时路由必须一直在线，定位路由中没有电池，必须使用供电电源为它供电，如路由没有电源将会影响定位功能。</p>
-<p><img alt="../../_images/modem.png" src="../../_images/modem.png" />beacon</p>
+<p><img alt="../../_images/modem.png" src="../../_images/modem.png" /></p>
 <p><a class="reference internal" href="../marvelmind/doc.html"><span class="doc">&gt;&gt;详细了解定位标签与路由</span></a></p>
 <div class="section" id="id5">
 <h4>准备工作<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h4>
@@ -201,7 +203,7 @@
 打开包装，连接 micro USB 线给定位标签充电，可使用手机充电器(5V)、充电宝(5V)或者电脑 USB 接口充电。充电时定位标签上红色 LED 指示灯闪烁，充满电后停止闪烁。从低电量到充满电大概需要1-2小时。</p></li>
 <li><p>打开定位标签开关
 两个拨码开关左侧保持远离 LED 指示灯，右侧为电源开关，拨到靠近 LED 指示灯位置为开。
-<img alt="../../_images/switch.png" src="../../_images/switch.png" />开关</p></li>
+<img alt="../../_images/switch.png" src="../../_images/switch.png" /></p></li>
 <li><p>打开软件——Dashborad（<a class="reference external" href="#">下载</a>）
 打开 Dashboard 软件，使用 micro USB 线连接标签或路由到电脑，Dashboard 识别后将会显示配置信息。</p></li>
 <li><p>初始化定位路由
@@ -212,7 +214,7 @@
 <li><p>初始化车载定位标签
 首先执行上一步操作初始化标签，接着配置 Hedgehog mode 设置为 enable，将配置 Interfaces 的第一个子项 UART speed 设置为115200。</p></li>
 </ol>
-<p><img alt="../../_images/settings.png" src="../../_images/settings.png" />配置</p>
+<p><img alt="../../_images/settings.png" src="../../_images/settings.png" /></p>
 </div>
 <div class="section" id="id6">
 <h4>开始搭建<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h4>
@@ -221,44 +223,36 @@
 <li><p>固定定位标签</p></li>
 </ol>
 <p>按照以下规则，将已经打开电源开关的4个固定标签固定到墙壁或其他可安装位置上。</p>
-<blockquote>
-<div><p>为减少遮挡的情况，标签位置尽量高，例如1.8m 以上</p>
-</div></blockquote>
-<blockquote>
-<div><p>标签相对地面等高且需要测量出高度值</p>
-</div></blockquote>
-<blockquote>
-<div><p>标签必须两两之间可见（无遮挡、有换能器相对）</p>
-</div></blockquote>
-<blockquote>
-<div><p>标签尽量分散开，避免4个标签中有3个甚至全部在一条直线上</p>
-</div></blockquote>
-<blockquote>
-<div><p>建议任意标签之间的距离控制在20m 以内（理论最大30m）</p>
-</div></blockquote>
-<blockquote>
-<div><p>移动标签应在固定标签围成的区域内部运动，布置固定标签时还应考虑此因素</p>
-</div></blockquote>
+<ul class="simple">
+<li><p>为减少遮挡的情况，标签位置尽量高，例如1.8m 以上</p></li>
+<li><p>标签相对地面等高且需要测量出高度值</p></li>
+<li><p>标签必须两两之间可见（无遮挡、有换能器相对）</p></li>
+<li><p>标签尽量分散开，避免4个标签中有3个甚至全部在一条直线上</p></li>
+<li><p>建议任意标签之间的距离控制在20m 以内（理论最大30m）</p></li>
+<li><p>移动标签应在固定标签围成的区域内部运动，布置固定标签时还应考虑此因素</p></li>
+</ul>
 <ol class="simple">
 <li><p>建立地图</p></li>
 </ol>
-<p>打开 Dashboard 连接路由，连接成功后左下角显示 modem。</p>
+<p>打开 Dashboard 连接路由，连接成功后左下角显示 <code class="docutils literal notranslate"><span class="pre">modem</span></code>。</p>
 <p>如非首次使用，本次标签位置与最后一次建图时位置一致，则可跳过此步骤。</p>
-<p>如重新建图，则需清除路由中可能已经存储的地图，点击设备列表右侧的 Erase map 按钮清除地图，然后点击 Submap 0 按钮。</p>
+<p>如重新建图，则需清除路由中可能已经存储的地图，点击设备列表右侧的 <code class="docutils literal notranslate"><span class="pre">Erase</span> <span class="pre">map</span></code> 按钮清除地图，然后点击 <code class="docutils literal notranslate"><span class="pre">Submap</span> <span class="pre">0</span></code> 按钮。</p>
 <ol class="simple">
-<li><p>点击设备列表中固定标签对应编号唤醒标签，过程大概需要10s。</p></li>
+<li><p>点击设备列表中固定标签对应编号唤醒标签，过程大概需要 10 秒 。</p></li>
 </ol>
-<p><img alt="../../_images/wakeup.png" src="../../_images/wakeup.png" />wakeup</p>
+<p><img alt="../../_images/wakeup.png" src="../../_images/wakeup.png" /></p>
 <ol class="simple">
-<li><p>点击设备列表中某个在线的标签，则右侧列表为该标签的参数设置。依次设置4个固定标签的 Height 参数为第1步布置的高度，注意单位为 m。</p></li>
-<li><p>地图会自动构建。等待地图显示中四个绿色固定信标位置基本不再变化、左上角距离表全部为白色、且 freeze map 按钮上方显示橙色 <code class="docutils literal notranslate"><span class="pre">Freeze</span> <span class="pre">submap!</span></code> 字样后，点击 freeze map 按钮锁定地图。如果锁定后的地图与实际情况手性相反（例如地图中从1到2到3是逆时针而实际布置的是顺时针），点击镜像按钮<img alt="../../_images/mirror.png" src="../../_images/mirror.png" />map翻转地图。</p></li>
+<li><p>点击设备列表中某个在线的标签，则右侧列表为该标签的参数设置。依次设置 4 个固定标签的 Height 参数为第 1 步布置的高度，注意单位为<strong>米</strong>。</p></li>
+<li><p>地图会自动构建。等待地图显示中四个绿色固定信标位置基本不再变化、左上角距离表全部为白色、且 <code class="docutils literal notranslate"><span class="pre">freeze</span> <span class="pre">map</span></code> 按钮上方显示橙色 <code class="docutils literal notranslate"><span class="pre">Freeze</span> <span class="pre">submap!</span></code> 字样后，点击 <code class="docutils literal notranslate"><span class="pre">freeze</span> <span class="pre">map</span></code> 按钮锁定地图。如果锁定后的地图与实际情况手性相反（例如地图中从1到2到3是逆时针而实际布置的是顺时针），点击镜像按钮<img alt="../../_images/mirror.png" src="../../_images/mirror.png" />翻转地图。</p></li>
 </ol>
-<p><img alt="../../_images/map.png" src="../../_images/map.png" />map</p>
+<p><img alt="../../_images/map.png" src="../../_images/map.png" /></p>
 <ol class="simple">
 <li><p>类似第3、4步的操作唤醒车载标签并设置车载标签相对地面的高度。</p></li>
 <li><p>定位系统已经开始工作了，车载移动标签在 Dashboard 中查看运动轨迹。之后使用系统定位已经不再依赖 Dashboard 软件，只要给路由供电，数秒后即可从移动标签的串口读取到定位坐标。</p></li>
 </ol>
-<p>注：</p>
+<blockquote>
+<div><p>注：</p>
+</div></blockquote>
 <ul class="simple">
 <li><p>路由连接 Dashboard 可在参数列表中查看所有标签的电量（电压），标签电量过低时界面上会有红色文字提示。</p></li>
 <li><p>停止使用时路由断电即可，1min 后所有标签会自动进入睡眠状态。长时间不使用时请关闭标签电源开关。</p></li>
@@ -294,9 +288,9 @@
 <li><p>查看 RVIZ 中是否有蓝色的点，如有数据则表示连接正常</p></li>
 </ol>
 <p>常见问题：</p>
-<ul class="simple">
-<li><p>如果使用软件测试时没有显示蓝色数据会有哪些原因？</p>
 <ul>
+<li><p>如果使用软件测试时没有显示蓝色数据会有哪些原因？</p>
+<ul class="simple">
 <li><p>车载定位标签的 USB 线没有插在 USB-Hub 的指定接口上</p></li>
 <li><p>USB-Hub 的 USB 线没有插在 Mini 计算机的指定接口上</p></li>
 <li><p>车载定位标签的波特率设置错误，正确应为设置为115200，回到上文初始化车载定位标签步骤重新设置</p></li>
@@ -305,16 +299,22 @@
 </li>
 <li><p>如果没有显示蓝色数据，那该如何排查？</p>
 <ul>
-<li><p>打开terminal，执行以下内容，查看是否有”box-3”这个设备
-<code class="docutils literal notranslate"><span class="pre">ll</span> <span class="pre">/dev/box-3</span></code></p></li>
+<li><p>打开terminal，执行以下内容，查看是否有”box-3”这个设备</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ll /dev/box-3
+</pre></div>
+</div>
+</li>
 <li><p>如有该设备则检查波特率设置</p></li>
 <li><p>如没有该设备，则检查线材连接</p>
 <ul>
 <li><p>USB-Hub 的指示灯是否亮</p>
 <ul>
 <li><p>如不亮则表示没有插紧</p></li>
-<li><p>如亮则检查规则文件，执行
-<code class="docutils literal notranslate"><span class="pre">vim</span> <span class="pre">/ect/rules.d</span></code></p></li>
+<li><p>如亮则检查规则文件，执行</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>vim /ect/rules.d
+</pre></div>
+</div>
+</li>
 </ul>
 </li>
 </ul>
@@ -348,14 +348,14 @@
 <li><p>如已经录有历史轨迹，遥控 AP1 走一段后，会直接跳到某一位置，表示 AP1 已经在（定位系统）地图中找到自己的位置</p></li>
 <li><p>点击开始录制，控制 AP1 在目标路径上走一圈</p></li>
 <li><p>保存轨迹</p></li>
-<li><p>按键盘【0】，点击执行，开始循迹</p></li>
-<li><p>如想要停止循迹，按键盘【9】，点击停止，循迹停止</p></li>
+<li><p>按键盘 <code class="docutils literal notranslate"><span class="pre">0</span></code>，点击执行，开始循迹</p></li>
+<li><p>如想要停止循迹，按键盘 <code class="docutils literal notranslate"><span class="pre">9</span></code>，点击停止，循迹停止</p></li>
 </ol>
-<p>如下次再次使用时，仍是在无需录制轨迹的同一环境中，则可跳过以上4、5步骤，无需录制轨迹，测试完毕后直接执行循迹功能。</p>
+<p>如下次再次使用时，仍是在无需录制轨迹的同一环境中，则可跳过以上 4、5 步骤，无需录制轨迹，测试完毕后直接执行循迹功能。</p>
 <p>如执行4、5步骤会清楚上一次已保存的地图，请知悉。</p>
 <p>常见问题：</p>
 <ul class="simple">
-<li><p>看不到 AP1 ？</p>
+<li><p>“看不到 AP1？”</p>
 <ul>
 <li><p>检查 AP1 是否在上位机控制模式</p></li>
 <li><p>检查 AP1 数据线是否插紧</p></li>
