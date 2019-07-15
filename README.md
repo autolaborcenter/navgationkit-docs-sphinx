@@ -42,6 +42,13 @@ git clone https://github.com/autolaborcenter/autolabor_box_docs.git
 
 **推送或创建合并申请前，仔细阅读下列要求。请尽量先在本地编译，预览效果。**
 
+### 关于链接
+
+* 链接外部网页以 `http://` 或 `https://` 开始
+* 链接其他文档页直接使用相对路径索引，且**末尾不要加文件后缀名**
+* 链接页内标题可使用 markdown 语法（`#目标标题`）
+* `Sphinx` 不支持以 markdown 语法链接其他文档页的标题，需要应直接书写 html 锚点
+
 ### makedown 格式要求
 
 * 使用格式
