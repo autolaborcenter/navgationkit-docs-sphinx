@@ -49,7 +49,7 @@ git clone https://github.com/autolaborcenter/autolabor_box_docs.git
 * 链接页内标题可使用 markdown 语法（`#目标标题`）
 * `Sphinx` 不支持以 markdown 语法链接其他文档页的标题，需要应直接书写 html 锚点
 
-### makedown 格式要求
+### markdown 格式要求
 
 * 使用格式
 
