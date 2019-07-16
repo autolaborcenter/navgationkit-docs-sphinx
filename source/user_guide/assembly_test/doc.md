@@ -42,9 +42,9 @@
 
 ### 电气拓扑
 
-![](./imgs/autolabor_box_v2_electrical_topology.png)
+![](./imgs/autolabor_navigationkit_v2_electrical_topology.png)
 
-> 导航套件（一代） 的 用户请参考： <a href="./imgs/autolabor_box_v1_electrical_topology.png" >     导航套件（一代）电气拓扑图</a>
+> 导航套件（一代） 的 用户请参考： <a href="./imgs/autolabor_navigationkit_v1_electrical_topology.png" >     导航套件（一代）电气拓扑图</a>
 
 ## 测试
 
