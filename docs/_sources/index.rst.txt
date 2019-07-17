@@ -1,4 +1,4 @@
-Autolabor Pro1 导航套件文档主页
+Autolabor NavigationKit 文档主页
 ================================
 
 .. toctree::
@@ -46,10 +46,10 @@ Autolabor Pro1 导航套件文档主页
    user_guide/quick_start/receipt
    user_guide/assembly_test/doc
    user_guide/restore_bios/doc
-   user_guide/reinstall_os/doc
+   user_guide/install_os/doc
    user_guide/reference/doc
 
-欢迎查看 Autolabor Pro1 导航套件官方文档！
+欢迎查看 Autolabor NavigationKit 官方文档！
 
 - 产品介绍：
 
@@ -79,6 +79,6 @@ Autolabor Pro1 导航套件文档主页
   
   - :doc:`user_guide/restore_bios/doc`
   
-  - :doc:`user_guide/reinstall_os/doc`
+  - :doc:`user_guide/install_os/doc`
   
   - :doc:`user_guide/reference/doc`
