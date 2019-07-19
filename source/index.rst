@@ -15,9 +15,9 @@ Autolabor NavigationKit 文档主页
    :glob:
    :caption: 产品介绍
 
-   introduction/overview/doc
-   introduction/tech_specs/doc
-   introduction/inthebox/doc
+   version_two/introduction/overview/doc
+   version_two/introduction/tech_specs/doc
+   version_two/introduction/inthebox/doc
 
 .. toctree::
    :hidden:
@@ -25,8 +25,8 @@ Autolabor NavigationKit 文档主页
    :glob:
    :caption: 使用指南
 
-   user_guide/quick_start/receipt
-   user_guide/assembly_test/doc
+   version_two/user_guide/quick_start/receipt
+   version_two/user_guide/assembly_test/doc
 
 .. toctree::
    :hidden:
@@ -34,8 +34,8 @@ Autolabor NavigationKit 文档主页
    :glob:
    :caption: 快速开始
 
-   user_guide/quick_start/slam_doc
-   location/guide/doc
+   version_two/user_guide/quick_start/slam_doc
+   version_two/location/guide/doc
 
 
 .. toctree::
@@ -44,13 +44,13 @@ Autolabor NavigationKit 文档主页
    :glob:
    :caption: 了解定位系统
 
-   location/marvelmind/doc
-   location/dashboard/doc
+   version_two/location/marvelmind/doc
+   version_two/location/dashboard/doc
 
 
-   user_guide/restore_bios/doc
-   user_guide/install_os/doc
-   user_guide/reference/doc
+   version_two/user_guide/restore_bios/doc
+   version_two/user_guide/install_os/doc
+   version_two/user_guide/reference/doc
 
 
 
@@ -67,26 +67,26 @@ Autolabor NavigationKit 文档主页
 
 - 使用指南：
 
-  - :doc:`user_guide/quick_start/receipt`
+  - :doc:`version_two/user_guide/quick_start/receipt`
 
-  - :doc:`user_guide/assembly_test/doc`
+  - :doc:`version_two/user_guide/assembly_test/doc`
 
 
   -- 快速开始：
 
-  - :doc:`user_guide/quick_start/slam_doc`
+  - :doc:`version_two/user_guide/quick_start/slam_doc`
 
-  - :doc:`location/guide/doc`
+  - :doc:`version_two/location/guide/doc`
 
 
   -- 了解定位系统：
 
-    - :doc:`location/marvelmind/doc`
+    - :doc:`version_two/location/marvelmind/doc`
 
-    - :doc:`location/dashboard/doc`
+    - :doc:`version_two/location/dashboard/doc`
 
-  - :doc:`user_guide/restore_bios/doc`
+  - :doc:`version_two/user_guide/restore_bios/doc`
 
-  - :doc:`user_guide/install_os/doc`
+  - :doc:`version_two/user_guide/install_os/doc`
 
-  - :doc:`user_guide/reference/doc`
+  - :doc:`version_two/user_guide/reference/doc`
