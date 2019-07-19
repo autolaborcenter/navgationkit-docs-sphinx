@@ -47,15 +47,17 @@ Autolabor NavigationKit 文档主页
    version_two/location/marvelmind/doc
    version_two/location/dashboard/doc
 
+.. toctree::
+   :hidden:
+   :maxdepth: -1
+   :glob:
+   :caption: 其他
 
    common/restore_bios/doc
    common/install_os/doc
    common/reference/doc
 
-
-
 欢迎查看 Autolabor NavigationKit 官方文档！
-
 
 - 产品介绍：
 
@@ -71,22 +73,22 @@ Autolabor NavigationKit 文档主页
 
   - :doc:`version_two/user_guide/assembly_test/doc`
 
+  - 快速开始：
 
-  -- 快速开始：
+    - :doc:`version_two/user_guide/quick_start/slam_doc`
 
-  - :doc:`version_two/user_guide/quick_start/slam_doc`
+    - :doc:`version_two/location/guide/doc`
 
-  - :doc:`version_two/location/guide/doc`
-
-
-  -- 了解定位系统：
+  - 了解定位系统：
 
     - :doc:`version_two/location/marvelmind/doc`
 
     - :doc:`version_two/location/dashboard/doc`
 
-  - :doc:`common/restore_bios/doc`
+  - 其他
 
-  - :doc:`common/install_os/doc`
+    - :doc:`common/restore_bios/doc`
 
-  - :doc:`common/reference/doc`
+    - :doc:`common/install_os/doc`
+
+    - :doc:`common/reference/doc`
