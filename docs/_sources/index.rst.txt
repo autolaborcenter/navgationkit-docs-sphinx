@@ -51,34 +51,35 @@ Autolabor NavigationKit 文档主页
 
 欢迎查看 Autolabor NavigationKit 官方文档！
 
+
 - 产品介绍：
 
   - :doc:`introduction/overview/doc`
-  
+
   - :doc:`introduction/tech_specs/doc`
-  
+
   - :doc:`introduction/inthebox/doc`
 
 - 快速开始：
 
   - :doc:`user_guide/quick_start/slam_doc`
-  
+
   - :doc:`location/guide/doc`
 
 - 了解定位系统：
 
   - :doc:`location/marvelmind/doc`
-  
+
   - :doc:`location/dashboard/doc`
 
 - 使用说明：
 
   - :doc:`user_guide/quick_start/receipt`
-  
+
   - :doc:`user_guide/assembly_test/doc`
-  
+
   - :doc:`user_guide/restore_bios/doc`
-  
+
   - :doc:`user_guide/install_os/doc`
-  
+
   - :doc:`user_guide/reference/doc`
