@@ -1,5 +1,5 @@
-Autolabor NavigationKit 文档主页
-================================
+Autolabor 导航套件文档主页
+===========================
 
 .. toctree::
    :hidden:
@@ -57,7 +57,7 @@ Autolabor NavigationKit 文档主页
    common/install_os/doc
    common/reference/doc
 
-欢迎查看 Autolabor NavigationKit 官方文档！
+欢迎查看 Autolabor 导航套件官方文档！
 
 - 产品介绍：
 
