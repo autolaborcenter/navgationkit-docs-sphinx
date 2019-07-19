@@ -1,4 +1,4 @@
-Autolabor NavigationKit 文档主页
+Autolabor 导航套件 文档主页
 ================================
 
 .. toctree::
@@ -9,56 +9,30 @@ Autolabor NavigationKit 文档主页
 
    self
 
-.. toctree::
-   :hidden:
-   :maxdepth: -1
-   :glob:
-   :caption: 产品介绍
+   version_one/introduction/overview/doc
 
-   introduction/overview/doc
-   introduction/tech_specs/doc
-   introduction/inthebox/doc
 
 .. toctree::
    :hidden:
    :maxdepth: -1
    :glob:
-   :caption: 快速开始
+   :caption: 使用指南
 
-   user_guide/quick_start/slam_doc
-   location/guide/doc
-
-.. toctree::
-   :hidden:
-   :maxdepth: -1
-   :glob:
-   :caption: 了解定位系统
-
-   location/marvelmind/doc
-   location/dashboard/doc
-
-.. toctree::
-   :hidden:
-   :maxdepth: -1
-   :glob:
-   :caption: 使用说明
-
-   user_guide/quick_start/receipt
-   user_guide/assembly_test/doc
-   user_guide/restore_bios/doc
-   user_guide/install_os/doc
-   user_guide/reference/doc
-
-欢迎查看 Autolabor NavigationKit 官方文档！
+   version_one/user_guide/quick_start/receipt
+   version_one/user_guide/assembly_test/doc
+   version_one/user_guide/quick_start/slam_doc
+   common/restore_bios/doc
+   common/install_os/doc
+   common/reference/doc
 
 
-- 产品介绍：
 
-  - :doc:`introduction/overview/doc`
 
-  - :doc:`introduction/tech_specs/doc`
 
-  - :doc:`introduction/inthebox/doc`
+欢迎查看 Autolabor 导航套件官方文档！
+
+
+- :doc:`version_one/introduction/overview/doc`
 
 - 快速开始：
 
