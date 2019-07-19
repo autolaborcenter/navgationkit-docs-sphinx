@@ -48,9 +48,9 @@ Autolabor NavigationKit 文档主页
    version_two/location/dashboard/doc
 
 
-   version_two/user_guide/restore_bios/doc
-   version_two/user_guide/install_os/doc
-   version_two/user_guide/reference/doc
+   common/user_guide/restore_bios/doc
+   common/user_guide/install_os/doc
+   common/user_guide/reference/doc
 
 
 
@@ -85,8 +85,8 @@ Autolabor NavigationKit 文档主页
 
     - :doc:`version_two/location/dashboard/doc`
 
-  - :doc:`version_two/user_guide/restore_bios/doc`
+  - :doc:`common/user_guide/restore_bios/doc`
 
-  - :doc:`version_two/user_guide/install_os/doc`
+  - :doc:`common/user_guide/install_os/doc`
 
-  - :doc:`version_two/user_guide/reference/doc`
+  - :doc:`common/user_guide/reference/doc`
