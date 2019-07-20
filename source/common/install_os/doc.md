@@ -6,7 +6,7 @@
 
 * Autolabor OS 镜像盘 * 1
 
-> AutolaborOS 镜像可以联系售后客服获取。
+> AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)。
 
 ## 开始
 
@@ -14,6 +14,10 @@
 
 
 ## 常见问题
+
+* “我购买的是一代导航套件（只有一个雷达），听说 Autolabor OS 升级了 Cartographer 算法，我也想升级，新系统的功能和我的硬件兼容吗？”
+
+  兼容，硬件不用变动，只需修改软件部分就可使用，见[升级教程](../../version_two/update/doc.md)。
 
 * “我可以把 Autolabor OS 安装到其他硬件平台吗？”
 
