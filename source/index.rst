@@ -1,5 +1,5 @@
-Autolabor 导航套件 文档主页
-================================
+
+Autolabor 导航套件文档主页
 
 .. toctree::
    :hidden:
