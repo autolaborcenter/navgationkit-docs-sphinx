@@ -6,7 +6,7 @@
 
 * 存有主板 BIOS 配置文件的 Autolabor OS 镜像盘 * 1
 
-> 主板 BIOS 配置文件可以联系售后客服获取。
+> 主板 BIOS 配置[下载](http://www.autolabor.com.cn/download)。
 
 ## 开始
 

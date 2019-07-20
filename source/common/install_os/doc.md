@@ -6,7 +6,7 @@
 
 * Autolabor OS 镜像盘 * 1
 
-> AutolaborOS 镜像可以联系售后客服获取。
+> AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)。
 
 ## 开始
 
