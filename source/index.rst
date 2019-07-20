@@ -36,6 +36,7 @@ Autolabor 导航套件文档主页
 
    version_two/user_guide/quick_start/slam_doc
    version_two/location/guide/doc
+   common/q_a/doc
 
 
 .. toctree::
@@ -78,6 +79,10 @@ Autolabor 导航套件文档主页
     - :doc:`version_two/user_guide/quick_start/slam_doc`
 
     - :doc:`version_two/location/guide/doc`
+
+    - :doc:`common/q_a/doc`
+
+
 
   - 了解定位系统：
 
