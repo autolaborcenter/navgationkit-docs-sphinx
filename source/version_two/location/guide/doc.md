@@ -29,11 +29,11 @@
 
 定位标签包含5个超声波换能器，收发各个方向的超声信号。
 
-![beacon](imgs/beacon.png)
+![](imgs/beacon.png)
 
 定位路由是整个定位系统的中心控制器，系统工作时路由必须一直在线，定位路由中没有电池，必须使用供电电源为它供电，如路由没有电源，定位系统会无法工作。
 
-![beacon](imgs/modem.png)
+![](imgs/modem.png)
 
 [>>详细了解定位标签与路由](../marvelmind/doc.md)
 
