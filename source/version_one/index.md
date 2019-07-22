@@ -12,10 +12,10 @@
 
   * [快速上手](user_guide/quick_start/slam_doc.md)
 
-  * [常见问题]()
+  * [常见问题](../common/q_a/doc.md)
 
   * [恢复BIOS](../common/restore_bios/doc.md)
 
-  * [安装OS](../common/reinstall_os/doc.md)
+  * [安装操作系统](../common/install_os/doc.md)
 
-  * [参考资料](../common/reference/doc.md)
+  * [设备参考资料](../common/reference/doc.md)
