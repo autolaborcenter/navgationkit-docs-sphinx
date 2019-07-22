@@ -37,8 +37,8 @@
   <link rel="stylesheet" href="../../../_static/css/page.css" type="text/css" />
     <link rel="index" title="索引" href="../../../genindex.html" />
     <link rel="search" title="搜索" href="../../../search.html" />
-    <link rel="next" title="定位系统" href="../marvelmind/doc.html" />
-    <link rel="prev" title="快速开始" href="../../user_guide/quick_start/slam_doc.html" /> 
+    <link rel="next" title="常见问题" href="../../../common/q_a/doc.html" />
+    <link rel="prev" title="建图导航" href="../../user_guide/quick_start/slam_doc.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -84,7 +84,7 @@
             
               <p class="caption"><span class="caption-text">主页</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../index.html">Autolabor 导航套件文档主页</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../index.html">&lt;no title&gt;</a></li>
 </ul>
 <p class="caption"><span class="caption-text">产品介绍</span></p>
 <ul>
@@ -100,7 +100,7 @@
 </ul>
 <p class="caption"><span class="caption-text">快速开始</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../user_guide/quick_start/slam_doc.html">快速开始</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../user_guide/quick_start/slam_doc.html">建图导航</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">定位循迹</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id2">功能简介</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id3">操作步骤</a><ul>
@@ -117,6 +117,7 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../../../common/q_a/doc.html">常见问题</a></li>
 </ul>
 <p class="caption"><span class="caption-text">了解定位系统</span></p>
 <ul>
@@ -197,7 +198,7 @@
 <p>注：仅导航套件室外版含此功能</p>
 <div class="section" id="id2">
 <h2>功能简介<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
-<p>定位循迹是机器人循着用户提前录好的轨迹自主行走，行走过程中机器人能够自动躲避障碍物，自动规划路线，达到目标点。可设置多种循迹模式。</p>
+<p>定位循迹是机器人循着用户提前录好的轨迹自主行走，行走过程中机器人能够自动躲避障碍物，自动规划路线，达到目标点。</p>
 <p>软件上提供了可视化的操作按钮和开发接口，可在行走途中对机器人发送停止/启动的指令，用户可以根据自己的需要对机器人进行二次开发。</p>
 <p>定位循迹使用的定位系统，能够为机器人、自动驾驶车辆、无人机等设备提供 ±2cm 的定位精度。定位系统覆盖范围与定位标签的配置方式和使用个数有关。</p>
 <p><a class="reference internal" href="../marvelmind/doc.html"><span class="doc">&gt;&gt;详细了解定位系统</span></a></p>
@@ -206,38 +207,43 @@
 <h2>操作步骤<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
 <ol class="simple">
 <li><p>搭建定位系统</p></li>
-<li><p>录制轨迹</p></li>
-<li><p>开始循迹</p></li>
+<li><p>循迹</p></li>
 </ol>
 <div class="section" id="id4">
 <h3>一、搭建定位系统<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
 <p>定位系统中包含车载定位标签，定位标签，定位路由。</p>
 <p>车载定位标签又称为车载移动定位标签，它安装在车上，随车移动。</p>
 <p>定位标签又称为固定标签，可将标签固定在高处（墙上、支架）或放置在平稳无遮挡的地方，使用的个数取决于用户的需求。</p>
-<p>定位标签包含5个超声波换能器，收发各个方向的超声信号。
-<img alt="../../../_images/beacon.png" src="../../../_images/beacon.png" />beacon</p>
-<p>定位路由是整个定位系统的中心控制器，系统工作时路由必须一直在线，定位路由中没有电池，必须使用供电电源为它供电，如路由没有电源将会影响定位功能。
-<img alt="../../../_images/modem.png" src="../../../_images/modem.png" />beacon</p>
+<p>定位标签包含5个超声波换能器，收发各个方向的超声信号。</p>
+<p><img alt="../../../_images/beacon.png" src="../../../_images/beacon.png" />beacon</p>
+<p>定位路由是整个定位系统的中心控制器，系统工作时路由必须一直在线，定位路由中没有电池，必须使用供电电源为它供电，如路由没有电源，定位系统会无法工作。</p>
+<p><img alt="../../../_images/modem.png" src="../../../_images/modem.png" />beacon</p>
 <p><a class="reference internal" href="../marvelmind/doc.html"><span class="doc">&gt;&gt;详细了解定位标签与路由</span></a></p>
 <div class="section" id="id5">
 <h4>准备工作<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h4>
-<ol class="simple">
-<li><p>给定位标签充电
-打开包装，连接 micro USB 线给定位标签充电，可使用手机充电器(5V)、充电宝(5V)或者电脑 USB 接口充电。充电时定位标签上红色 LED 指示灯闪烁，充满电后停止闪烁。从低电量到充满电大概需要1-2小时。</p></li>
-<li><p>打开定位标签开关
-两个拨码开关左侧保持远离 LED 指示灯，右侧为电源开关，拨到靠近 LED 指示灯位置为开。
-<img alt="../../../_images/switch.png" src="../../../_images/switch.png" />开关</p></li>
-<li><p>打开软件——Dashborad（<a class="reference external" href="#">下载</a>）
-打开 Dashboard 软件，使用 micro USB 线连接标签或路由到电脑，Dashboard 识别后将会显示配置信息。</p></li>
-<li><p>初始化定位路由
-使用micro USB 线将定位路由与电脑连接，点击 Dashboard 右下 Default 按钮加载默认配置。</p></li>
-<li><p>初始化定位标签
-使用micro USB 线将定位标签与电脑连接，点击 Dashboard 右下 Default 按钮加载默认配置，然后查看标签 id (Device address)并标记到标签外壳上方便使用过程中进行区分。也可对标签 id 进行修改，注意不要出现重复的 id。
-建议将标签 id 从1开始设置，逐个递增。</p></li>
-<li><p>初始化车载定位标签
-首先执行上一步操作初始化标签，接着配置 Hedgehog mode 设置为 enable，将配置 Interfaces 的第一个子项 UART speed 设置为115200。</p></li>
-</ol>
+<ol>
+<li><p>给定位标签充电</p>
+<p>打开包装，连接 micro USB 线给定位标签充电，可使用手机充电器(5V)、充电宝(5V)或者电脑 USB 接口充电。充电时定位标签上红色 LED 指示灯闪烁，充满电后停止闪烁。从低电量到充满电大概需要1-2小时。</p>
+</li>
+<li><p>打开定位标签开关</p>
+<p>两个拨码开关左侧保持远离 LED 指示灯，右侧为电源开关，拨到靠近 LED 指示灯位置为开。</p>
+<p><img alt="../../../_images/switch.png" src="../../../_images/switch.png" />开关</p>
+</li>
+<li><p>打开软件——Dashborad（<a class="reference external" href="http://www.autolabor.com.cn/download">下载</a>）</p>
+<p>打开 Dashboard 软件，使用 micro USB 线连接标签或路由到电脑，Dashboard 识别后将会显示配置信息。</p>
+</li>
+<li><p>初始化定位路由</p>
+<p>使用micro USB 线将定位路由与电脑连接，点击 Dashboard 右下 Default 按钮加载默认配置。</p>
+</li>
+<li><p>初始化定位标签</p>
+<p>使用micro USB 线将定位标签与电脑连接，点击 Dashboard 右下 Default 按钮加载默认配置，然后查看标签 id (Device address)并标记到标签外壳上方便使用过程中进行区分。也可对标签 id 进行修改，注意不要出现重复的 id。</p>
+<p>建议将标签 id 从 2 开始设置，逐个递增。</p>
+</li>
+<li><p>初始化车载定位标签</p>
+<p>首先执行上一步操作初始化标签，接着配置 Hedgehog mode 设置为 enable，将配置 Interfaces 的第一个子项 UART speed 设置为115200。</p>
 <p><img alt="../../../_images/settings.png" src="../../../_images/settings.png" />配置</p>
+</li>
+</ol>
 </div>
 <div class="section" id="id6">
 <h4>开始搭建<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h4>
@@ -298,11 +304,8 @@
 <ol class="simple">
 <li><p>车载定位标签测试</p></li>
 <li><p>激光雷达测试</p></li>
-<li><p>点击开始循迹</p></li>
-<li><p>录制轨迹</p></li>
-<li><p>保存轨迹</p></li>
 <li><p>开始循迹</p></li>
-<li><p>停止循迹</p></li>
+<li><p>终止循迹</p></li>
 </ol>
 <div class="section" id="id9">
 <h5>车载定位标签测试<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h5>
@@ -313,15 +316,15 @@
 <li><p>确保所有线材连接正确</p></li>
 </ul>
 <ol class="simple">
-<li><p>确认车载定位标签的 USB 线插正确的 USB-Hub 口上，插上通电后会常亮红色电源灯</p></li>
+<li><p>确认车载定位标签的 USB 线插正确的 USB-Hub 口上</p></li>
 <li><p>定位系统设置完毕，定位路由开始工作后，车载定位标签上面会闪着红灯，并发出“哒哒哒…”的高频声音，代表标签功能正常</p></li>
 <li><p>进入桌面测试文件夹，点击标签测试</p></li>
 <li><p>查看 RVIZ 中是否有蓝色的点，如有数据则表示连接正常</p></li>
 </ol>
 <p>常见问题：</p>
-<ul class="simple">
-<li><p>如果使用软件测试时没有显示蓝色数据会有哪些原因？</p>
 <ul>
+<li><p>如果使用软件测试时没有显示蓝色数据会有哪些原因？</p>
+<ul class="simple">
 <li><p>车载定位标签的 USB 线没有插在 USB-Hub 的指定接口上</p></li>
 <li><p>USB-Hub 的 USB 线没有插在 Mini 计算机的指定接口上</p></li>
 <li><p>车载定位标签的波特率设置错误，正确应为设置为115200，回到上文初始化车载定位标签步骤重新设置</p></li>
@@ -330,7 +333,7 @@
 </li>
 <li><p>如果没有显示蓝色数据，那该如何排查？</p>
 <ul>
-<li><p>打开terminal，执行以下内容，查看是否有”box-3”这个设备
+<li><p>打开terminal，执行以下命令内容，查看是否有”box-3”这个设备
 <code class="docutils literal notranslate"><span class="pre">ll</span> <span class="pre">/dev/box-3</span></code></p></li>
 <li><p>如有该设备则检查波特率设置</p></li>
 <li><p>如没有该设备，则检查线材连接</p>
@@ -338,8 +341,9 @@
 <li><p>USB-Hub 的指示灯是否亮</p>
 <ul>
 <li><p>如不亮则表示没有插紧</p></li>
-<li><p>如亮则检查规则文件，执行
-<code class="docutils literal notranslate"><span class="pre">vim</span> <span class="pre">/ect/rules.d</span></code></p></li>
+<li><p>如亮则检查规则文件，执行</p>
+<p><code class="docutils literal notranslate"><span class="pre">vim</span> <span class="pre">/ect/rules.d</span></code></p>
+</li>
 </ul>
 </li>
 </ul>
@@ -352,7 +356,7 @@
 <h5>激光雷达测试<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h5>
 <ol class="simple">
 <li><p>进入桌面测试文件夹，点击雷达测试</p></li>
-<li><p>查看 RVIZ 中是否有黄色激光雷达数据，如有则激光雷达功能正常</p></li>
+<li><p>查看 RVIZ 中是否有红色与黄色激光雷达数据，如有则激光雷达功能正常</p></li>
 </ol>
 <p>常见问题：</p>
 <ul class="simple">
@@ -366,26 +370,49 @@
 </ul>
 </div>
 <div class="section" id="id11">
-<h5>开始导航<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h5>
+<h5>开始循迹<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h5>
 <ol class="simple">
-<li><p>打开开始导航，查看 RVIZ 中 AP1 是否显示为有黄色模型，没有机器人信息模型为白色，如有 AP1 的模型则 AP1 连接正常。
-2. 使用键盘控制 AP1 遥控走一段路，如从未录制过轨迹，在走的过程中 AP1 在RVIZ 中会持续跳动，此时 AP1 是在进行地图坐标匹配，当 AP1 不再跳动时，则表示稳定， 走3-5m，边走边转动，障碍物信息不再变化（跳）。</p></li>
-<li><p>如已经录有历史轨迹，遥控 AP1 走一段后，会直接跳到某一位置，表示 AP1 已经在（定位系统）地图中找到自己的位置</p></li>
-<li><p>点击开始录制，控制 AP1 在目标路径上走一圈</p></li>
-<li><p>保存轨迹</p></li>
-<li><p>按键盘【0】，点击执行，开始循迹</p></li>
-<li><p>如想要停止循迹，按键盘【9】，点击停止，循迹停止</p></li>
+<li><p>录制轨迹</p></li>
 </ol>
-<p>如下次再次使用时，仍是在无需录制轨迹的同一环境中，则可跳过以上4、5步骤，无需录制轨迹，测试完毕后直接执行循迹功能。</p>
-<p>如执行4、5步骤会清楚上一次已保存的地图，请知悉。</p>
-<p>常见问题：</p>
 <ul class="simple">
-<li><p>看不到 AP1 ？</p>
-<ul>
-<li><p>检查 AP1 是否在上位机控制模式</p></li>
-<li><p>检查 AP1 数据线是否插紧</p></li>
+<li><p>打开桌面文件夹定位循迹，点击开始循迹</p></li>
 </ul>
-</li>
+<p><img alt="../../../_images/location-1.png" src="../../../_images/location-1.png" /></p>
+<p>程序打开RVIZ后，可以看到界面中显示了黄色的 AP1 模型代表 AP1，红色的点为前置激光雷达数据，黄色的点为后置激光雷达数据，紫色的路线为录制的轨迹。</p>
+<p>注：即使用户从未录制轨迹，首次打开程序界面上也会显示一条轨迹，此为系统预置轨迹，用户录制轨迹后，此默认轨迹会被覆盖。</p>
+<p><img alt="../../../_images/location-2.png" src="../../../_images/location-2.png" /></p>
+<ul class="simple">
+<li><p>使用键盘控制 AP1 遥控走一段路，如从未录制过轨迹，在走的过程中 AP1 在RVIZ 中会持续跳动，此时 AP1 是在进行地图坐标匹配，当 AP1 不再跳动时，则表示稳定， 走3-5m，边走边转动，障碍物信息不再变化（跳），如下图所示。</p></li>
+</ul>
+<p><img alt="../../../_images/location-3.gif" src="../../../_images/location-3.gif" /></p>
+<ul class="simple">
+<li><p>如已经录有历史轨迹，遥控 AP1 走一段后，会直接跳到某一位置，表示 AP1 已经在（定位系统）地图中找到自己的位置。</p></li>
+<li><p>点击 RVIZ 工具栏下方的【录制轨迹】按钮，控制 AP1 在目标路径上走一圈。</p></li>
+</ul>
+<p><img alt="../../../_images/location-4.png" src="../../../_images/location-4.png" /></p>
+<p>注：录制的轨迹需闭合。</p>
+<ul class="simple">
+<li><p>录制完成后，点击【保存轨迹】按钮。</p></li>
+</ul>
+<p><img alt="../../../_images/location-5.png" src="../../../_images/location-5.png" /></p>
+<ol class="simple">
+<li><p>开始循迹</p></li>
+</ol>
+<ul class="simple">
+<li><p>按键盘【0】，点击【开始任务】，循迹任务开始</p></li>
+</ul>
+<p><img alt="../../../_images/location-6.png" src="../../../_images/location-6.png" /></p>
+<p>机器人在刚刚录制的路线上开始了循迹任务：</p>
+<p><img alt="../../../_images/location-7.gif" src="../../../_images/location-7.gif" /></p>
+<ol class="simple">
+<li><p>停止循迹</p></li>
+</ol>
+<p>如想要停止循迹，可先按键盘【9】，点击【停止任务】，循迹任务停止。</p>
+<p><img alt="version_two\location\guide\imgs/location-9.png" src="version_two\location\guide\imgs/location-9.png" /></p>
+<p>注：</p>
+<ul class="simple">
+<li><p>如下次再次使用时，仍是在无需录制轨迹的同一环境中，则可跳过录制路线的步骤，测试完毕后直接执行循迹功能。</p></li>
+<li><p>如重新录制路径会清除上一次已保存的地图。</p></li>
 </ul>
 </div>
 </div>
@@ -401,10 +428,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../marvelmind/doc.html" class="btn btn-neutral float-right" title="定位系统" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../../../common/q_a/doc.html" class="btn btn-neutral float-right" title="常见问题" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../../user_guide/quick_start/slam_doc.html" class="btn btn-neutral float-left" title="快速开始" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../../user_guide/quick_start/slam_doc.html" class="btn btn-neutral float-left" title="建图导航" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

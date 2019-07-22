@@ -1,5 +1,5 @@
+
 Autolabor 导航套件文档主页
-===========================
 
 .. toctree::
    :hidden:
@@ -36,6 +36,7 @@ Autolabor 导航套件文档主页
 
    version_two/user_guide/quick_start/slam_doc
    version_two/location/guide/doc
+   common/q_a/doc
 
 
 .. toctree::
@@ -57,7 +58,7 @@ Autolabor 导航套件文档主页
    common/install_os/doc
    common/reference/doc
 
-欢迎查看 Autolabor 导航套件官方文档！
+欢迎查看 Autolabor 导航套件 官方文档！
 
 - 产品介绍：
 
@@ -78,6 +79,10 @@ Autolabor 导航套件文档主页
     - :doc:`version_two/user_guide/quick_start/slam_doc`
 
     - :doc:`version_two/location/guide/doc`
+
+    - :doc:`common/q_a/doc`
+
+
 
   - 了解定位系统：
 
