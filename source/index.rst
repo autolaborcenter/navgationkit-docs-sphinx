@@ -9,7 +9,7 @@ Autolabor 导航套件 文档主页
 
    self
 
-   version_one/introduction/overview/doc
+   version_one/overview/doc
 
 
 .. toctree::
@@ -32,25 +32,19 @@ Autolabor 导航套件 文档主页
 欢迎查看 Autolabor 导航套件官方文档！
 
 
-- :doc:`version_one/introduction/overview/doc`
+- :doc:`version_one/overview/doc`
 
-- 快速开始：
-
-  - :doc:`user_guide/quick_start/slam_doc`
-
-  - :doc:`location/guide/doc`
-
-- 了解定位系统：
-
-  - :doc:`location/marvelmind/doc`
-
-  - :doc:`location/dashboard/doc`
-
-- 使用说明：
+- 使用指南：
 
   - :doc:`user_guide/quick_start/receipt`
 
   - :doc:`user_guide/assembly_test/doc`
+
+  - :doc:`user_guide/quick_start/slam_doc`
+
+  - :doc:`user_guide/quick_start/slam_doc`
+
+- 其他：
 
   - :doc:`user_guide/restore_bios/doc`
 
