@@ -47,7 +47,7 @@
 
     两个拨码开关左侧保持远离 LED 指示灯，右侧为电源开关，拨到靠近 LED 指示灯位置为开。
 
-    ![开关](imgs/switch.png)
+    ![](imgs/switch.png)
 
 3. 打开软件——Dashborad（[下载](http://www.autolabor.com.cn/download)）
 
@@ -67,7 +67,7 @@
 
     首先执行上一步操作初始化标签，接着配置 Hedgehog mode 设置为 enable，将配置 Interfaces 的第一个子项 UART speed 设置为115200。
 
-    ![配置](imgs/settings.png)
+    ![](imgs/settings.png)
 
 
 #### 开始搭建
@@ -103,13 +103,13 @@
 
 3. 点击设备列表中固定标签对应编号唤醒标签，过程大概需要10s。
 
-![wakeup](imgs/wakeup.png)
+![](imgs/wakeup.png)
 
 4. 点击设备列表中某个在线的标签，则右侧列表为该标签的参数设置。依次设置4个固定标签的 Height 参数为第1步布置的高度，注意单位为 m。
 
 5. 地图会自动构建。等待地图显示中四个绿色固定信标位置基本不再变化、左上角距离表全部为白色、且 freeze map 按钮上方显示橙色 `Freeze submap!` 字样后，点击 freeze map 按钮锁定地图。如果锁定后的地图与实际情况手性相反（例如地图中从1到2到3是逆时针而实际布置的是顺时针），点击镜像按钮![map](imgs/mirror.png)翻转地图。
 
-![map](imgs/map.png)
+![](imgs/map.png)
 
 6. 类似第3、4步的操作唤醒车载标签并设置车载标签相对地面的高度。
 
