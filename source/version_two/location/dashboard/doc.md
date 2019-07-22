@@ -6,7 +6,7 @@
 
 ![](imgs/dashboard.png)
 
-下载地址：TODO
+[下载Dashborad](http://www.autolabor.com.cn/download)
 
 ## 显示设置
 
