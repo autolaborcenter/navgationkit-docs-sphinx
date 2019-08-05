@@ -124,3 +124,28 @@
 2. 初始化定位一直没有成功，地图和真实环境不符是什么原因
 
     如周围没有明显的特征信息，使得机器人能够找到自己的位置，开到有折角拐弯或明显标志物附近，能够加速机器人找到自己的位置。
+
+3. 导航过程中，机器人走的太慢，速度能再快点吗？
+
+    可以，但机器人行走速度过快，实时雷达数据与环境地图匹配不佳会导致无法正确避障而撞到障碍物。
+
+    并且机器人定位异常，会影响导航行走效果。
+
+4. （接上问）我一定要提高速度，在哪里改参数？
+
+    修改以下文件：
+
+    catkin_ws\src\launch\autolabor_navigation_launch\two_laser_navigation_param\teb_local_planner_params.yaml
+
+    ```
+    max_vel_x: 0.2 //机器人的最大平移速度
+    max_vel_x_backwards: 0.2//当向后移动时，机器人的最大绝对平移速度
+    max_vel_theta: 0.2//机器人的最大旋转速度
+    ```
+
+    修改为
+    ```
+    max_vel_x: 0.8
+    max_vel_x_backwards: 0.6
+    max_vel_theta: 0.6
+    ```
