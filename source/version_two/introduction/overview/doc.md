@@ -19,3 +19,5 @@ Autolabor Pro 1 是由清华大学科研团队打造的无人驾驶平台，该�
 ![](imgs/product-5.png)
 
 ![](imgs/product-6.png)
+
+![](imgs/product-7.jpg)
