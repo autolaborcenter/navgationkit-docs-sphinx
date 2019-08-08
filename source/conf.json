@@ -1,0 +1,79 @@
+{
+	"_readme": [
+		"注：uri 必须保障唯一性，若有重复引用，请使用 rewrite 注册新的 uri",
+		"由于设计缺陷，rewrite 时只能自定义最后一级路径",
+		"uri 格式 1 - 相对文档：a/b/c",
+		"uri 格式 2 - 相对站内：/usedoc/apa/b/c",
+		"uri 格式 3 - 绝对地址：http://www.baidu.com",
+		"_readme 本身并没有什么软用"
+	],
+	"index": "version_one/overview/doc",
+	"rewrite": {
+		
+	},
+	"plugin": {
+		"emoji": false,
+		"taskList": true,
+		"tex": true,
+		"flowChart": true,
+		"sequenceDiagram": true
+	},
+	"menu": {
+		"toc": {
+			"startLevel": "0",
+			"overLevel": "0"
+		},
+		"items": [
+			{
+				"name": "Autolabor Pro1",
+				"uri": "/usedoc/ap1"
+			},
+			{
+				"name": "导航套件二代(双雷达)",
+				"uri": "/usedoc/navigationKit2"
+			},
+			{
+				"name": "导航套件一代(单雷达)",
+				"items": [
+					{
+						"name": "产品介绍",
+						"uri": "version_one/overview/doc"
+					},
+					{
+						"name": "使用指南",
+						"items": [
+							{
+								"name": "收货与清点",
+								"uri": "version_one/user_guide/quick_start/receipt"
+							},
+							{
+								"name": "组装与测试",
+								"uri": "version_one/user_guide/assembly_test/doc"
+							},
+							{
+								"name": "快速上手",
+								"uri": "version_one/user_guide/quick_start/slam_doc"
+							},
+							{
+								"name": "常见问题",
+								"uri": "common/q_a/doc"
+							},
+							{
+								"name": "恢复BIOS",
+								"uri": "common/restore_bios/doc"
+							},
+							{
+								"name": "安装操作系统",
+								"uri": "common/install_os/doc"
+							},
+							{
+								"name": "设备参考资料",
+								"uri": "common/reference/doc"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
