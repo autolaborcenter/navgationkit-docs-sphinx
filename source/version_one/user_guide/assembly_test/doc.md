@@ -7,7 +7,7 @@
 
 详请参照视频
 
-https://video-autolabor-1255388470.cos.ap-beijing.myqcloud.com/AutolaborPro1/%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B6%E7%BB%84%E8%A3%85%E6%95%99%E7%A8%8B.mp4
+<video class="standard-video" src="https://video-autolabor-1255388470.cos.ap-beijing.myqcloud.com/AutolaborPro1/%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B6%E7%BB%84%E8%A3%85%E6%95%99%E7%A8%8B.mp4" width="100%" height="100%" controls="controls"></video>
 
 
 ### 注意事项

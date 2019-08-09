@@ -1,8 +1,10 @@
 # 快速开始
 
+以下内容适用于 Autolabor OS 2.1.2 以下版本
+
 ## 视频版
 
-https://video-autolabor-1255388470.cos.ap-beijing.myqcloud.com/AutolaborPro1/%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.mp4
+<video class="standard-video" src="https://video-autolabor-1255388470.cos.ap-beijing.myqcloud.com/AutolaborPro1/%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.mp4" width="100%" height="100%" controls="controls"></video>
 
 ## 文字版
 

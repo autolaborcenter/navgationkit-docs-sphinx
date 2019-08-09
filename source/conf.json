@@ -9,7 +9,7 @@
 	],
 	"index": "version_one/overview/doc",
 	"rewrite": {
-		
+
 	},
 	"plugin": {
 		"emoji": false,
@@ -40,37 +40,36 @@
 						"uri": "version_one/overview/doc"
 					},
 					{
-						"name": "使用指南",
-						"items": [
-							{
-								"name": "收货与清点",
-								"uri": "version_one/user_guide/quick_start/receipt"
-							},
-							{
-								"name": "组装与测试",
-								"uri": "version_one/user_guide/assembly_test/doc"
-							},
-							{
-								"name": "快速上手",
-								"uri": "version_one/user_guide/quick_start/slam_doc"
-							},
-							{
-								"name": "常见问题",
-								"uri": "common/q_a/doc"
-							},
-							{
-								"name": "恢复BIOS",
-								"uri": "common/restore_bios/doc"
-							},
-							{
-								"name": "安装操作系统",
-								"uri": "common/install_os/doc"
-							},
-							{
-								"name": "设备参考资料",
-								"uri": "common/reference/doc"
-							}
-						]
+						"name": "收货与清点",
+						"uri": "version_one/user_guide/quick_start/receipt"
+					},
+					{
+						"name": "组装与测试",
+						"uri": "version_one/user_guide/assembly_test/doc"
+					},
+					{
+						"name": "快速上手",
+						"uri": "version_one/user_guide/quick_start/slam_doc"
+					},
+					{
+						"name": "常见问题",
+						"uri": "common/q_a/doc"
+					},
+					{
+						"name": "软件升级",
+						"uri": "version_one/user_guide/update/doc"
+					},
+					{
+						"name": "恢复BIOS",
+						"uri": "common/restore_bios/doc"
+					},
+					{
+						"name": "安装操作系统",
+						"uri": "common/install_os/doc"
+					},
+					{
+						"name": "设备参考资料",
+						"uri": "common/reference/doc"
 					}
 				]
 			}
