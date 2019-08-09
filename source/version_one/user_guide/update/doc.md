@@ -20,3 +20,5 @@
 6. 修改完毕后点击【开始建图】，看到如下图则修改成功
 
 ![](imgs/3.png)
+
+使用教程：参见 导航套件二代 [建图导航教程](/usedoc/navigationKit2/version_two/user_guide/quick_start/slam_doc)
