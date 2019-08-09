@@ -1,5 +1,9 @@
 # 产品概览
 
+> 介绍视频
+
+<video class="standard-video" src="https://video-autolabor-1255388470.cos.ap-beijing.myqcloud.com/AutolaborPro1/AP1%E4%BA%8C%E4%BB%A3%E5%A5%97%E4%BB%B6%E4%BB%8B%E7%BB%8D-final.mp4 " width="100%" height="100%" controls="controls"></video>
+
 ![](imgs/product-1.JPG)
 
 Autolabor Pro 1 是由清华大学科研团队打造的无人驾驶平台，该平台实现了室内外高精度定位、SLAM建图、路径规划、自动导航、自动循迹、自动避障等功能。
