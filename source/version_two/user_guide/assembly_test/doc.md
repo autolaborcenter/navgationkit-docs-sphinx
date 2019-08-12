@@ -4,9 +4,9 @@
 
 ## 组装
 
-> 详请参照视频
+> 组装视频
 
-<video class="standard-video" src="https://video-autolabor-1255388470.cos.ap-beijing.myqcloud.com/AutolaborPro1/AP1%E4%BA%8C%E4%BB%A3%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.mp4" width="100%" height="100%" controls="controls"></video>
+<video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E4%BA%8C%E4%BB%A3%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.mp4" width="100%" height="100%" controls="controls"></video>
 
 
 ### 线材连接

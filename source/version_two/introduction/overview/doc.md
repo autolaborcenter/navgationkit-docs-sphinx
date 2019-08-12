@@ -2,7 +2,7 @@
 
 > 介绍视频
 
-<video class="standard-video" src="https://video-autolabor-1255388470.cos.ap-beijing.myqcloud.com/AutolaborPro1/AP1%E4%BA%8C%E4%BB%A3%E5%A5%97%E4%BB%B6%E4%BB%8B%E7%BB%8D-final.mp4 " width="100%" height="100%" controls="controls"></video>
+<video class="standard-video" controls="controls" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E4%BA%8C%E4%BB%A3%E5%A5%97%E4%BB%B6%E4%BB%8B%E7%BB%8D-final.mp4 " width="100%" height="100%"></video>
 
 ![](imgs/product-1.JPG)
 
