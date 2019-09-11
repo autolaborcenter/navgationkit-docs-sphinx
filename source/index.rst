@@ -48,12 +48,6 @@ Autolabor 导航套件文档主页
    version_two/location/marvelmind/doc
    version_two/location/dashboard/doc
 
-.. toctree::
-   :hidden:
-   :maxdepth: -1
-   :glob:
-   :caption: 其他
-
    common/restore_bios/doc
    common/install_os/doc
    common/reference/doc
@@ -89,8 +83,6 @@ Autolabor 导航套件文档主页
     - :doc:`version_two/location/marvelmind/doc`
 
     - :doc:`version_two/location/dashboard/doc`
-
-  - 其他
 
     - :doc:`common/restore_bios/doc`
 
