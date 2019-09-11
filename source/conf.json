@@ -9,7 +9,7 @@
 	],
 	"index": "version_two/introduction/overview/doc",
 	"rewrite": {
-		
+
 	},
 	"plugin": {
 		"emoji": false,
@@ -91,21 +91,16 @@
 								]
 							},
 							{
-								"name": "其他",
-								"items": [
-									{
-										"name": "恢复 BIOS",
-										"uri": "common/restore_bios/doc"
-									},
-									{
-										"name": "安装操作系统",
-										"uri": "common/install_os/doc"
-									},
-									{
-										"name": "设备参考资料",
-										"uri": "common/reference/doc"
-									}
-								]
+								"name": "恢复 BIOS",
+								"uri": "common/restore_bios/doc"
+							},
+							{
+								"name": "安装操作系统",
+								"uri": "common/install_os/doc"
+							},
+							{
+								"name": "设备参考资料",
+								"uri": "common/reference/doc"
 							}
 						]
 					}
