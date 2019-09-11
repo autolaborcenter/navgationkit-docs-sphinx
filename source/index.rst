@@ -44,8 +44,6 @@ Autolabor 导航套件 文档主页
 
   - :doc:`user_guide/quick_start/slam_doc`
 
-- 其他：
-
   - :doc:`user_guide/restore_bios/doc`
 
   - :doc:`user_guide/install_os/doc`
