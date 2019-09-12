@@ -40,8 +40,8 @@
 | -------------- | ---- |
 | 电源模块/深度相机集线器 | 1    |
 
-![](imgs/receipt-3-1.JPG)
-![](imgs/receipt-3-2.JPG)
+![](imgs/receipt-3-1.jpg)
+![](imgs/receipt-3-2.jpg)
 
 
 ## 深度相机
