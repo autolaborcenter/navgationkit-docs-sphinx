@@ -84,4 +84,4 @@ RVIZ工具打开，建好的地图会自动加载。
 之后在同一环境中需要再次使用导航功能时，无须重复建图，点击【开始导航】即可。
 
 
-[>>常见问题](/usedoc/navigationKit2/common/q_a/doc.md)
+[>>常见问题](/usedoc/navigationKit2/common/q_a/doc)
