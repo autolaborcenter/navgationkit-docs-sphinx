@@ -11,11 +11,11 @@
 
 ## 开始
 
-* Mini电脑垂直安装在型材立柱的用户请参考：
+* 新版Mini电脑请参考：
 
 ![](imgs/install_os.gif)
 
-* Mini电脑水平安装在底盘平面的用户请参考：
+* 旧版Mini电脑请参考：
 
 ![](imgs/install_os_untill_2019_12_25.gif)
 
