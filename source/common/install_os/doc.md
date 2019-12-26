@@ -1,11 +1,3 @@
-<!--
- * @Description: file content
- * @Author: CK.Zh
- * @Date: 2019-12-23 14:24:37
- * @LastEditors  : CK.Zh
- * @LastEditTime : 2019-12-26 11:35:09
- -->
-
 # 安装操作系统
 
 如果你的操作系统运行异常、或准备清空文稿资料，本文将引导你如何安装出厂版本的操作系统。
