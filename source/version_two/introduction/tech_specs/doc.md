@@ -6,8 +6,8 @@
 | ------------------- | --------------- |
 | CPU          | AMD® Ryzen3 2200G          |
 | 芯片组        | AMD® A300 |
-| RAM          | DDR4 4GB    |
-| ROM           | SSD 120GB         |
+| RAM          | DDR4 8GB    |
+| ROM           | SSD 250GB         |
 | Wi-Fi        | 支持          |
 | 蓝牙         | 支持          |
 | 扩展接口        | 参见[接口图片](#interface) |
