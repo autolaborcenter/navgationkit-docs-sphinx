@@ -1,14 +1,16 @@
 # 规格参数
 
-* Autolabor PC
+* Autolabor PC 
 
 | 项目                 | 规格            |
 | ------------------- | --------------- |
-| CPU        | AMD Ryzen3 2200G          |
-| 主板       | 技嘉 GA-AB350N-Gaming WIFI|
-| 内存       | 威刚 万紫千红 DDR4 4GB    |
-| 硬盘       | 威刚 SP580 120GB         |
-| 电源       | 立人 LR1108 (150W)       |
+| CPU          | AMD® Ryzen3 2200G          |
+| 芯片组        | AMD® A300 |
+| RAM          | DDR4 8GB    |
+| ROM           | SSD 250GB         |
+| Wi-Fi        | 支持          |
+| 蓝牙         | 支持          |
+| 扩展接口        | 参见[接口图片](#interface) |
 
 * CPU （AMD Ryzen3 2200G <sup>1</sup>）
 
@@ -27,8 +29,8 @@
 
 | 项目                 | 规格            |
 | ------------------- | --------------- |
-| 输入电压              | DC 18-36V      |
-| 输出电压              | DC 12v        |
+| 电池容量              | 10AH @ 24V    |
+| 输出电压              | DC 12V        |
 | 输出电流              | 20A           |
 | 纹波电压              | < 100mV       |
 
@@ -81,7 +83,9 @@
 |         | 外部：USB供电 |
 | 尺寸    | 55 x 55 x 33 mm（含天线：55 x 55 x 65 mm）|
 
+<a name="interface"></a>
 
+![](imgs/interface_horizontal.png)
 
 <sup>1</sup> 附CPU性能天梯图供参考：https://www.mydrivers.com/zhuanti/tianti/cpu/index.html
 

@@ -10,10 +10,19 @@
 
 ## 开始
 
+* 新版Mini电脑请参考：
+
 ![](imgs/install_os.gif)
 
+* 旧版Mini电脑请参考：
+
+![](imgs/install_os_untill_2019_12_25.gif)
 
 ## 常见问题
+
+* “启动选项中找不到教程中提到的设备？”
+
+  由于生产批次不同，您看到的启动优盘名称可能有差异，一般会是以下几种：  “Generic Mass-Storage 1.11” 、 “HP v285w 1100” 、 “USB DISK 2.0 PMAP”
 
 * “我可以把 Autolabor OS 安装到其他硬件平台吗？”
 
