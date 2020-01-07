@@ -66,17 +66,16 @@
 
     * gmapping算法在构建大地图时所需内存和计算量都会增加，不适合构建大场景地图。并且没有回环检测，因此在回环闭合时可能会造成地图错位，可以考虑增加粒子数目尝试使地图闭合，但会增加计算量和内存。
 
-      ```
-        粒子参数修改：
+      粒子参数修改：
 
-        修改文件：catkin_ws/src/launch/autolabor_box_launch/launch/create_map.launch
+      修改文件：catkin_ws/src/launch/autolabor_box_launch/launch/create_map.launch
 
-        修改参数：<param name="particles" value=""/>
+      修改参数：<param name="particles" value=""/>
 
-        改成15试试
+      改为15
 
-        ```
       注：此条不适用于 Autolabor OS 2.1.2 及以上版本。
+
     * 当场景很大特征不足的时候，需要规划建图路径时，应先走一个小回环，当回环成功后，可以再多走几圈，消除粒子在这个回环的多样性。接下来走下一个回环，直到把整个地图连通成一个大的回环。
 
 

@@ -60,10 +60,6 @@
 						"uri": "version_one/user_guide/update/doc"
 					},
 					{
-						"name": "恢复BIOS",
-						"uri": "common/restore_bios/doc"
-					},
-					{
 						"name": "安装操作系统",
 						"uri": "common/install_os/doc"
 					},
