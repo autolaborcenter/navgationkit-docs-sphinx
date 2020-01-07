@@ -1,10 +1,9 @@
-# 组装与测试
 
-    本文将引导你安装导航套件并对各部件进行测试
+> 以下内容适用于下图台式 Mini 计算机的导航套件。
 
-## 组装
+<img style="width:40%" src="imgs/receipt-0.JPG"/>
 
-> 组装视频
+### 组装视频
 
 <video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E4%BA%8C%E4%BB%A3%E5%A5%97%E4%BB%B6%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.mp4" width="100%" height="100%" controls="controls"></video>
 
@@ -45,17 +44,4 @@
 
 ### 电气拓扑
 
-![](./imgs/autolabor_navigationkit_v2_electrical_topology.png)
-
-
-## 测试
-
-我们提供了一套工具软件，并将其放置在电脑桌面的**测试**文件夹中，用户可以用来检测导航套件中各部件能否正常工作。
-
-![](imgs/autolabor-destop.jpg)
-
-1. 激光雷达测试
-
-2. 深度相机测试
-
-3. 车载定位标签测试
+![](./imgs/autolabor_navigationkit_v2_electrical_topology_untill_2019_12_23.png)
