@@ -3,7 +3,7 @@
 
 ## <a href="/usedoc/navigationKit2/common/q_a/doc1#1">设备篇</a>
 
-1. 电池充电接口、工控机电源接口、Kinect 集线器的电源接口可以互换适配器吗
+1. 电池充电接口、工控机电源接口、Kinect 集线器的电源接口可以互换适配器吗？
 2. 为什么风扇噪音非常大？
 3. 为什么我看不到 Kinect 的数据？
 4. Mini 计算机上插口都够，为什么还要额外使用 USB-Hub ，我可以不用 Usb-Hub 吗？
