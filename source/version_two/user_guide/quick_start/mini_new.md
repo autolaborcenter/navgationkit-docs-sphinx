@@ -31,7 +31,7 @@
 
 ![](imgs/receipt-new-5.JPG)
 
-![](imgs/receipt-new-6.JPG)
+![](imgs/receipt-new-6.jpg)
 
 
 
