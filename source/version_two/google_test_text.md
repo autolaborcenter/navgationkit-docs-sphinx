@@ -4,4 +4,4 @@ Autolabor Pro 1 导航套件是一个基于ROS的开放式机器人平台，包�
 
 一键式导航操作，极大降低了使用门槛，代码全部开源，软件持续更新，丰富的资料，可帮助使用者快速开始应用开发。
 
-[了解详情](http://www.autolabor.com.cn/pro/detail/4)
+[详细了解](http://www.autolabor.com.cn/pro/detail/4)
