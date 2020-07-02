@@ -10,20 +10,29 @@
 <a href="/usedoc/navigationKit2/common/q_a/doc2#5">5. AP1不受键盘控制、失控</a>
 <a href="/usedoc/navigationKit2/common/q_a/doc2#6">6. 如何判断自己的建图质量</a>
 <a href="/usedoc/navigationKit2/common/q_a/doc2#7">7. 如何建出高质量的地图/建图效果不佳/地图构建要点</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#8">8. 建好的地图存放在哪里</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#9">9. 我有多个环境，地图是否可以保存多个，不用每次重新建图</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#10">10. 已构建好的地图文件是什么格式，如何对其进行修改</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#11">11. （接上问）如果一定要手动修改地图，怎么办？</a>
 
 ## 导航
 
 <a href="/usedoc/navigationKit2/common/q_a/doc2#nav1">1. 建图完毕后，点击开始导航就会报错</a>
 <a href="/usedoc/navigationKit2/common/q_a/doc2#nav2">2. 初始化定位如何完成</a>
 <a href="/usedoc/navigationKit2/common/q_a/doc2#nav3">3. 初始化定位一直没有成功，地图和真实环境不符是什么原因</a>
-<a href="/usedoc/navigationKit2/common/q_a/doc2#nav4">4. 导航过程中，机器人走的太慢，速度能再快点吗？</a>
-<a href="/usedoc/navigationKit2/common/q_a/doc2#nav5">5. （接上问）我一定要提高速度，在哪里改参数？</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#nav4">4. 开始导航后，为什么车走的特别慢，完全走不动的样子</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#nav5">5. 导航过程中，机器人走的太慢，速度能再快点吗？</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#nav6">6. （接上问）我一定要提高速度，在哪里改参数？</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#nav7">7. 导航时，如何调整机器人可通过的宽度/让机器人离障碍物可以更近一点</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc2#nav8">8. 机器人导航到达这个目标点是以什么作为参考的呢？这个位置又是如何确定的呢？</a>
+
+
 
 ***
 
 ## 建图导航-建图篇
 
-<p id="1">1.打开开始建图，RVIZ中只有一个白色的车，左侧 RobotModel 报错</p>
+<p id="1">1. 打开开始建图，RVIZ中只有一个白色的车，左侧 RobotModel 报错</p>
 
 ![](imgs/info3.jpg)
 
@@ -32,7 +41,7 @@
 
 ***
 
-<p id="2">2.打开开始建图，RVIZ中只有一个黄色的车，左侧警告 No map receievd</p>
+<p id="2">2. 打开开始建图，RVIZ中只有一个黄色的车，左侧警告 No map receievd</p>
 
 ![](imgs/info4.jpg)
 
@@ -53,14 +62,14 @@
 
 ***
 
-<p id="3">3.键盘控制AP1行走时，AP1动作异常，动一下停一下</p>
+<p id="3">3. 键盘控制AP1行走时，AP1动作异常，动一下停一下</p>
 
 可调整显示器的位置，保持接收器不被遮挡，并调整自己的位置，使接收器可以接收到发送的指令信号，建议使用USB延长线或USB-HUB将接收器放置在架子的高处，无任何遮挡，便于信号传输。
 
 
 ***
 
-<p id="4">4.键盘控制，AP1一动不动</p>
+<p id="4">4. 键盘控制，AP1一动不动</p>
 
 a) 确认已将AP1电源总开关打开，急停开关没有被按下，AP1处于上位机控制模式
 
@@ -83,14 +92,14 @@ e) 请排查是否有多个键盘设备，键盘驱动查找的是最后一个�
 
 ***
 
-<p id="5">5.AP1不受键盘控制、失控</p>
+<p id="5">5. AP1不受键盘控制、失控</p>
 
 在开始建图前，需要禁用无线功能。如果没有禁用，AP1在连接了WIFI的状态下开始建图，在地图构建过程中，一旦AP1离开无线覆盖区域，无线连接断开，ROS的网络通信中断就会导致AP1控制失控。
 
 
 ***
 
-<p id="6">6.如何判断自己的建图质量</p>
+<p id="6">6. 如何判断自己的建图质量</p>
 
 在构建完成的地图中，如很明显是障碍物（墙）的颜色是虚的，则不太好。
 
@@ -98,7 +107,7 @@ e) 请排查是否有多个键盘设备，键盘驱动查找的是最后一个�
 
 ***
 
-<p id="7">7.如何建出高质量的地图/建图效果不佳/地图构建要点</p>
+<p id="7">7. 如何建出高质量的地图/建图效果不佳/地图构建要点</p>
 
 在构建地图的过程，以下几点会影响到建图的准确性：
 
@@ -114,6 +123,61 @@ e) 请排查是否有多个键盘设备，键盘驱动查找的是最后一个�
 
 * 当场景很大特征不足的时候，需要规划建图路径时，应先走一个小回环，当回环成功后，可以再多走几圈，消除粒子在这个回环的多样性。接下来走下一个回环，直到把整个地图连通成一个大的回环
 
+***
+
+<p id="8">8. 建好的地图存放在哪里</p>
+
+catkin_ws/src/launch/autolabor_navigation_launch/map
+
+***
+
+<p id="9">9. 我有多个环境，地图是否可以保存多个，不用每次重新建图</p>
+
+可以。所有成功保存的地图都会保存在：
+
+`catkin_ws/src/launch/autolabor_navigation_launch/map`
+
+
+导航时使用的地图文件为`map.pbstream`，最后一次保存的地图会自动存储为`map.pbstream`，而过去建好的地图会用时间戳重命名，备份在同一路径下，备份地图的名称可以自定义。
+
+![](imgs/info5.png)
+
+如果要切换地图，可以将现有地图重命名，将要替换的地图修改为`map.pbstream`，之后需要再次切换的时候，依然更换地图名称即可。
+
+
+***
+
+<p id="10">10. 已构建好的地图文件是什么格式，如何对其进行修改</p>
+
+SLAM 建图算法使用的是 Cartographer ，地图文件为 pbstream 格式。
+
+pbstream 文件本质上是一个压缩的 protobuf 文件，其中包含 Cartographer 内部使用的数据结构的快照。
+
+>Cartographer can serialize its internal state in a .pbstream file format which is essentially a compressed protobuf file containing a snapshot of the data structures used by Cartographer internally.
+
+由此可知，pbstream 与 ROS格式地图（.pgm+.yaml）不同，pbstream 不可修改编辑。
+
+*** 
+
+<p id="11">11. （接上问）如果一定要手动修改地图，怎么办？</p>
+
+由上问可知 pbstream 是不可编辑的，但如果因为环境的原因，建图效果不是很好，一定要手动修改地图。
+
+有2点要提前知晓：
+
+1. pbstream 格式只能向 ROS 格式地图（.pgm+.yaml）单向转换
+2. 导航中定位使用的是 Cartographer 定位，Cartographer 定位是只支持基于 pbstream 格式地图的 pure localization，不接受其他格式的地图。如果要修改地图，就要放弃 Cartographer 定位。
+
+可参考的方案有：
+
+1. 使用 Cartographer 建图，得到 pbstream 文件，转换为ROS格式地图（.pgm+.yaml），手动修改后使用其他定位算法，如AMCL
+2. 更换 Cartographer 为 gmapping，得到ROS格式地图（.pgm+.yaml），手动修改后使用其他定位算法，如AMCL
+
+
+但 gmapping 没有回环检测，建图效果与 Cartographer 比有差距。
+
+请按照各自的需求，来进行决策。
+
 
 ## 建图导航-导航篇
 
@@ -126,6 +190,7 @@ e) 请排查是否有多个键盘设备，键盘驱动查找的是最后一个�
     catkin_ws\src\launch\autolabor_navigation_launch\map\map.pbstream
 
     是否有 map.pbstream 文件存在，如果没有则没有成功保存地图。
+
 2.  有地图存在，但文件大小较小（不到1MB）
 
     地图文件不完整，没有正常保存地图。
@@ -150,7 +215,17 @@ e) 请排查是否有多个键盘设备，键盘驱动查找的是最后一个�
 
 ***
 
-<p id="nav4">4. 导航过程中，机器人走的太慢，速度能再快点吗？</p>
+<p id="nav4">4. 开始导航后，为什么车走的特别慢，完全走不动的样子</p>
+
+给定目标，开始导航后，要按【0】关闭键盘控制。
+
+键盘未关闭，且又不进行任何控制时，键盘程序会一直向底层发送速度0指令。
+
+接到目标点导航任务后，导航程序又一直向底层发布速度指令，2个程序同时发送速度，会导致底层走不动。
+
+***
+
+<p id="nav5">5. 导航过程中，机器人走的太慢，速度能再快点吗？</p>
 
 可以，但机器人行走速度过快，实时雷达数据与环境地图匹配不佳会导致无法正确避障而撞到障碍物。
 
@@ -159,11 +234,11 @@ e) 请排查是否有多个键盘设备，键盘驱动查找的是最后一个�
 
 ***
 
-<p id="nav5">5. （接上问）我一定要提高速度，在哪里改参数？</p>
+<p id="nav6">6. （接上问）我一定要提高速度，在哪里改参数？</p>
 
 修改以下文件：
 
-catkin_ws\src\launch\autolabor_navigation_launch\two_laser_navigation_param\teb_local_planner_params.yaml
+`catkin_ws\src\launch\autolabor_navigation_launch\two_laser_navigation_param\teb_local_planner_params.yaml`
 
 ```
 max_vel_x: 0.2 //机器人的最大平移速度
@@ -177,3 +252,38 @@ max_vel_x: 0.8
 max_vel_x_backwards: 0.6
 max_vel_theta: 0.6
 ```
+
+<p id="nav7">7. 导航时，如何调整机器人可通过的宽度/让机器人离障碍物可以更近一点</p>
+
+修改以下文件：
+
+`/src/launch/autolabor_navigation_launch/two_laser_navigation_param/teb_local_planner_params.yaml`
+
+参考下图：
+
+![](imgs/info6.png)
+![](imgs/info7.png)
+
+
+修改以下3个参数：
+
+```
+line_start: [-0.3, 0.0] # for type "line"
+line_end: [0.3, 0.0] # for type "line"
+min_obstacle_dist:0.4
+```
+
+具体的数值要按照修改期望与实际环境进行计算，
+虚线圈越小，离障碍物就越近，可过的宽度越窄，但不建议修改太小。
+
+***
+
+<p id="nav8">8. 机器人导航到达这个目标点是以什么作为参考的呢？这个位置又是如何确定的呢？</p>
+
+在map坐标系下，机器人base_link坐标系原点，到达目标点位置，即视为到达目标点。
+
+**Autolabor Pro1 base_link坐标系**
+
+以机器人四轮接触面为X-Y平面，四轮轴心连线的点做垂线，与x-y平面的交点为base_link坐标系原点，车头朝向方向为X轴，正左方向为Y轴，向上为Z轴。
+
+![](imgs/info8.jpg)

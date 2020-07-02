@@ -7,6 +7,7 @@
 <a href="/usedoc/navigationKit2/common/q_a/doc1#5">5. USB-Hub 上面的接口不通用吗？</a>
 <a href="/usedoc/navigationKit2/common/q_a/doc1#6">6. 我想换台计算机来作为上位机， OS 系统装好，USB-Hub 也插好了， 除了电脑本身其他什么都没变，为什么测试雷达、定位标签都找不到设备？</a>
 <a href="/usedoc/navigationKit2/common/q_a/doc1#7">7.（接上问） 我就想换台计算机，然后把设备用起来，那我该怎么办？</a>
+<a href="/usedoc/navigationKit2/common/q_a/doc1#8">8. 电池充电要冲多久才能充满？</a>
 
 ***
 
@@ -70,11 +71,11 @@ Kinec集线器的数据线另一端必须插在工控机 **USB3.0** 接口上，
 2. 把 usb-hub 上所有设备都拔掉
 
 3. terminal 中执行
-      ```$ vim /etc/udev/rules/99-position.rules```
+      `$ vim /etc/udev/rules/99-position.rules`
       注：box_1 为前雷达，box_2 为后雷达，box_3 为定位标签，autolabor_pro1 为 AP1 机器人
 
 4. 将 hub上的设备依次插上保持不动，每插一个在 terminal 中执行一次
-     ```$ dmesg```
+     `$ dmesg`
 
 5. 将 99-position.rules 中对应设备 rules 里面的那一行的 kernels 修改为 $ dmesg 查看到的值
 
@@ -85,3 +86,9 @@ Kinec集线器的数据线另一端必须插在工控机 **USB3.0** 接口上，
 6. 每个设备修改完毕后，保存 99-position.rules 退出
 
 7. 保存完毕，重启电脑
+
+<p id="8">8. 电池充电要冲多久才能充满？</p>
+
+AP1 标准版/导航套件-电源模块：电池从0-100%，需要7小时左右  
+
+AP1 高续航版： 电池从0-100%，需要10小时左右

@@ -123,6 +123,10 @@
 								{
 										"name": "建图导航",
 										"uri": "common/q_a/doc2"
+								},
+								{
+										"name": "定位巡迹",
+										"uri": "common/q_a/doc3"
 								}
 						],
 					},
