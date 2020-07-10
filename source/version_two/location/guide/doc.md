@@ -254,9 +254,14 @@ Channel -> 0
 
 1. 录制轨迹
 
-打开桌面文件夹定位循迹，点击开始循迹
+打开桌面 定位循迹 文件夹，首次使用时文件如下图，双击打开后点击 trust and launch，程序第一次打开后会重命名
 
-![](imgs/location-1.png)
+![](imgs/location-9.png)
+
+![](imgs/location-10.png)
+
+
+点击 **开始循迹**
 
 程序打开RVIZ后，可以看到界面中显示了黄色的 AP1 模型代表 AP1，红色的点为前置激光雷达数据，黄色的点为后置激光雷达数据，紫色的路线为录制的轨迹。
 
@@ -308,6 +313,10 @@ Channel -> 0
 
 
 [>>常见问题](/usedoc/navigationKit2/common/q_a/doc3)
+
+
+***
+
 
 ## 补充知识
 
