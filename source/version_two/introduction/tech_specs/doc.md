@@ -89,4 +89,4 @@
 
 <sup>1</sup> 附CPU性能天梯图供参考：https://www.mydrivers.com/zhuanti/tianti/cpu/index.html
 
-<sup>2</sup> 仅室外导航套件含此功能
+<sup>2</sup> 仅高配版含此功能
