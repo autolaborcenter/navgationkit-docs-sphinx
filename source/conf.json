@@ -25,11 +25,7 @@
 		},
 		"items": [
 			{
-				"name": "Autolabor Pro1",
-				"uri": "/usedoc/ap1"
-			},
-			{
-				"name": "导航套件二代(双雷达)",
+				"name": "Autolabor Pro1 (双雷达)",
 				"isOpen": false,
 				"items": [
 					{
@@ -87,6 +83,10 @@
 						"name": "快速开始",
 						"items": [
 							{
+								"name": "键盘控制",
+								"uri": "version_two/user_guide/quick_start/control"
+							},
+							{
 								"name": "建图导航",
 								"uri": "version_two/user_guide/quick_start/slam_doc"
 							},
@@ -141,9 +141,15 @@
 				]
 			},
 			{
-				"name": "导航套件一代(单雷达) （已停产）",
+				"name": "Autolabor Pro1 (单雷达) （已停产）",
 				"uri": "/usedoc/navigationKit1"
+			},
+			{
+				"name": "AP1 底盘",
+				"uri": "/usedoc/ap1"
 			}
+
+
 		]
 	}
 }
