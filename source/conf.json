@@ -24,16 +24,13 @@
 			"overLevel": "0"
 		},
 		"items": [
+			
 			{
-				"name": "Autolabor Pro1",
-				"uri": "/usedoc/ap1"
-			},
-			{
-				"name": "导航套件二代(双雷达)",
+				"name": "Autolabor Pro1 (双雷达)",
 				"uri": "/usedoc/navigationKit2"
 			},
 			{
-				"name": "导航套件一代(单雷达) （已停产）",
+				"name": "Autolabor Pro1 (单雷达) （已停产）",
 				"items": [
 					{
 						"name": "产品介绍",
@@ -68,6 +65,10 @@
 						"uri": "common/reference/doc"
 					}
 				]
+			},
+			{
+				"name": "AP1 底盘",
+				"uri": "/usedoc/ap1"
 			}
 		]
 	}
