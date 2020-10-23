@@ -83,6 +83,10 @@
 						"name": "快速开始",
 						"items": [
 							{
+								"name": "手柄控制",
+								"uri": "version_two/user_guide/quick_start/joy_control"
+							},
+							{
 								"name": "键盘控制",
 								"uri": "version_two/user_guide/quick_start/control"
 							},
