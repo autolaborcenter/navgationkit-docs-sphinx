@@ -56,5 +56,4 @@
 
 ## <a href="/usedoc/navigationKit2/common/q_a/doc4#nav1">其他</a>
 
-1. Kinect 可以用来做什么？如何使用？有无资料
-2. 如何编译工作空间？
+1. 如何编译ROS工作空间？
