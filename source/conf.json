@@ -49,16 +49,16 @@
 						"name": "收货指南",
 						"items":[
 								{
-										"name": "检查",
-										"uri": "version_two/user_guide/quick_start/receipt"
+									"name": "检查",
+									"uri": "version_two/user_guide/quick_start/receipt"
 								},
 								{
-										"name": "清点 - 挂式 Mini 计算机",
-										"uri": "version_two/user_guide/quick_start/mini_new"
+									"name": "清点 - 挂式 Mini 计算机",
+									"uri": "version_two/user_guide/quick_start/mini_new"
 								},
 								{
-										"name": "清点 - 台式 Mini 计算机 （已停产）",
-										"uri": "version_two/user_guide/quick_start/mini_old"
+									"name": "清点 - 台式 Mini 计算机 （已停产）",
+									"uri": "version_two/user_guide/quick_start/mini_old"
 								}
 						],
 					},
@@ -66,16 +66,16 @@
 						"name": "组装测试",
 						"items":[
 								{
-										"name": "组装 - 挂式 Mini 计算机",
-										"uri": "version_two/user_guide/assembly_test/mini_new"
+									"name": "组装 - 挂式 Mini 计算机",
+									"uri": "version_two/user_guide/assembly_test/mini_new"
 								},
 								{
-										"name": "组装 - 台式 Mini 计算机 （已停产）",
-										"uri": "version_two/user_guide/assembly_test/mini_old"
+									"name": "组装 - 台式 Mini 计算机 （已停产）",
+									"uri": "version_two/user_guide/assembly_test/mini_old"
 								},
 								{
-										"name": "测试",
-										"uri": "version_two/user_guide/assembly_test/test"
+									"name": "测试",
+									"uri": "version_two/user_guide/assembly_test/test"
 								}
 						]
 					},
@@ -92,14 +92,23 @@
 							},
 							{
 								"name": "建图导航",
-								"uri": "version_two/user_guide/quick_start/slam_doc"
+								"items": [
+									{
+										"name": "快速上手",
+										"uri": "version_two/user_guide/quick_start/slam_doc"
+									},
+									{
+										"name": "SLAM 多点导航功能包",
+										"uri": "version_two/user_guide/quick_start/multi_slam_doc"
+									}
+								]								
 							},
 							{
 								"name": "定位循迹",
 									"items": [
 										{
-												"name": "快速上手",
-												"uri": "version_two/location/guide/doc"
+											"name": "快速上手",
+											"uri": "version_two/location/guide/doc"
 										},
 										{
 											"name": "了解定位系统",
@@ -131,6 +140,10 @@
 								{
 										"name": "定位巡迹",
 										"uri": "common/q_a/doc3"
+								},
+								{
+										"name": "其他",
+										"uri": "common/q_a/doc4"
 								}
 						],
 					},
