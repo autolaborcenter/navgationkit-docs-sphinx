@@ -14,7 +14,7 @@
 
 `catkin build`
 
-如过去曾经编译成功过，可只执行 `caktin build` 即可。
+如过去曾经编译成功过，可只执行第二句命令 `caktin build` 即可。
 
 
 
