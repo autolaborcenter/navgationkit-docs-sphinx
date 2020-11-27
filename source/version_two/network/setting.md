@@ -7,8 +7,9 @@
 
 要求：
 
+* 有无线局域网
 * 用户端主机必须有网卡
-* 用户端主机与机器人的距离不能超过无线局域网的有效范围，距离过远或遮挡都会影响连接
+* 用户端主机与机器人主机的距离不能超过无线局域网的有效范围，距离过远或遮挡都会影响连接
 
 特点：局域网，适用于近距离控制，速度快。
 
@@ -27,7 +28,7 @@
 ## 选择相应的网络连接
 
 <p><a href="/usedoc/navigationKit2/version_two/network/inner-connect">内网</a></p>
-<p><a href="/usedoc/navigationKit2/version_two/network/inner-connect">外网</a></p>
+<p><a href="/usedoc/navigationKit2/version_two/network/outer-connect">外网</a></p>
 
 日常近距使用建议选择内网连接
 
