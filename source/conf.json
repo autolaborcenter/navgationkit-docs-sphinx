@@ -105,20 +105,41 @@
 							},
 							{
 								"name": "定位循迹",
-									"items": [
-										{
-											"name": "快速上手",
-											"uri": "version_two/location/guide/doc"
-										},
-										{
-											"name": "了解定位系统",
-											"uri": "version_two/location/marvelmind/doc"
-										},
-										{
-											"name": "Dashboard 说明",
-											"uri": "version_two/location/dashboard/doc"
-										}
-									]
+								"items": [
+									{
+										"name": "快速上手",
+										"uri": "version_two/location/guide/doc"
+									},
+									{
+										"name": "了解定位系统",
+										"uri": "version_two/location/marvelmind/doc"
+									},
+									{
+										"name": "Dashboard 说明",
+										"uri": "version_two/location/dashboard/doc"
+									}
+								]
+							},
+							{
+								"name": "远程连接",
+								"items": [
+									{
+										"name": "连接说明",
+										"uri": "version_two/network/setting"
+									},
+									{
+										"name": "内网连接",
+										"uri": "version_two/network/inner-connect"
+									},
+									{
+										"name": "外网连接",
+										"uri": "version_two/network/outer-connect"
+									},
+									{
+										"name": "远程控制-键盘插件",
+										"uri": "version_two/network/keyboard-plugin"
+									}
+								]
 							}
 						]
 					},
