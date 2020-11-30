@@ -51,10 +51,9 @@ git clone https://github.com/autolaborcenter/rviz_keyboard_plugin.git
 
 ### 二、安装
 
-以**建图**为例，演示该插件的安装方法。
+以**SLAM建图**为例，演示该插件的安装方法。
 
-
-####　1. 远程连接
+#### 1. 远程连接
 
 使用远程桌面工具，连接到车载电脑上。
 
