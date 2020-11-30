@@ -61,7 +61,7 @@ git clone https://github.com/autolaborcenter/rviz_keyboard_plugin.git
 
 ![](imgs/slam.png)
 
-程序启动，RVIZ打开。
+程序启动，RVIZ打开。此时，在远程端我们用键盘控制，车无法运动。
 
 ![](imgs/create_map.png)
 
