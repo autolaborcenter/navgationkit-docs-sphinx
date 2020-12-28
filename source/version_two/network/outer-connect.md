@@ -56,11 +56,9 @@
     ② 选择对应的设备
     ③ 点击`启动`
     
-    ![](imgs/network-5.png)
+    ![](imgs/network-34.png)
 
     启动后得到远程命令地址： cloud.autolabor.com.cn 端口：xxxxx
-
-    ![](imgs/network-6.png)
 
     请记住该地址，之后使用 SSH 连接会用到。
 
