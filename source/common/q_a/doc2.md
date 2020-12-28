@@ -172,9 +172,10 @@ pbstream 文件本质上是一个压缩的 protobuf 文件，其中包含 Cartog
 
 1. 使用 Cartographer 建图，得到 pbstream 文件，转换为ROS格式地图（.pgm+.yaml），手动修改后使用其他定位算法，如AMCL
 2. 更换 Cartographer 为 gmapping，得到ROS格式地图（.pgm+.yaml），手动修改后使用其他定位算法，如AMCL
+3. 在建图的时候，在环境中雷达所在的位置，人为做一些遮挡，如贴个黑胶带，或者用纸板挡一下，建完图取掉
 
 
-但 gmapping 没有回环检测，建图效果与 Cartographer 比有差距。
+注： gmapping 没有回环检测，建图效果与 Cartographer 比有差距。
 
 请按照各自的需求，来进行决策。
 
