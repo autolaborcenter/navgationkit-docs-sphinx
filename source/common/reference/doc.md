@@ -13,7 +13,7 @@
 * 华擎 DeskMini A300 准系统：
   * [产品详情](https://www.asrock.com/nettop/AMD/DeskMini%20A300%20Series/index.cn.asp)
   * [BIOS升级](https://www.asrock.com/Nettop/AMD/DeskMini%20A300%20Series/index.cn.asp#BIOS)
-  * 
+  
 * 华擎 DeskMini X300 准系统：
   * [产品详情](https://www.asrock.com/nettop/AMD/DeskMini%20X300%20Series/index.cn.asp)
   * [BIOS升级](https://www.asrock.com/Nettop/AMD/DeskMini%20X300%20Series/index.cn.asp#BIOS)
