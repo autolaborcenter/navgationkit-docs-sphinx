@@ -1,6 +1,6 @@
 # 软件升级
 
-软件版本：Autolabor OS 2.1.2
+软件版本：Autolabor OS 2.1.5（[下载地址](http://www.autolabor.com.cn/download)）
 操作步骤：
 
 1. 安装新的OS至工控机中
