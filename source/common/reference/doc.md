@@ -5,8 +5,8 @@
 * [砝石 FS-D10 激光雷达](http://www.faselase.com/chanpinshuomingshuxiazai.html)
 
 * 瑞芬星通 AH100B 惯导:
- * [产品详情](http://www.rion-star.com/cpzx/gxdh/AH100B/2018/0204/112.html)
- * [软件下载](http://www.rion-tech.net/download_list/downloadcategoryid=31&isMode=false.html)
+  * [产品详情](http://www.rion-star.com/cpzx/gxdh/AH100B/2018/0204/112.html)
+  * [软件下载](http://www.rion-star.com/jsfw/ruanjianxiazai/list_119_3.html)
 
 * 技嘉 GA-AB350N-Gaming WiFi 主板:
   * [产品详情](https://www.gigabyte.cn/Motherboard/GA-AB350N-Gaming-WIFI-rev-10)
