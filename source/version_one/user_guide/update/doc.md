@@ -1,9 +1,10 @@
 # 软件升级
 
-软件版本：Autolabor OS 2.1.5（[下载地址](http://www.autolabor.com.cn/download)）
+软件版本：Autolabor OS 2.1.5
+
 操作步骤：
 
-1. 安装新的OS至工控机中
+1. 安装新的OS至工控机中([操作教程](http://www.autolabor.com.cn/usedoc/navigationKit1/common/install_os/doc)）
 
 2. 打开桌面【SLAM建图导航】文件夹
 
