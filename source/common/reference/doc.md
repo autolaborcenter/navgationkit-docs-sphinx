@@ -1,8 +1,11 @@
 # 设备参考资料
 
-* [思岚 A2 激光雷达](https://www.slamtec.com/cn/Support#rplidar-a2)
-
 * [砝石 FS-D10 激光雷达](http://www.faselase.com/chanpinshuomingshuxiazai.html)
+
+* Kinect V2
+  *  Windows：[Link 1](https://www.microsoft.com/en-us/download/details.aspx?id=44561)/[Link 2](https://developer.microsoft.com/en-us/windows/kinect/)/[Link 3](https://docs.microsoft.com/en-us/previous-versions/windows/kinect/dn758761(v=ieb.10))
+
+* [定位标签使用手册](http://download.autolabor.com.cn/File/marvelmind_navigation_system_manual.pdf)
 
 * 瑞芬星通 AH100B 惯导:
   * [产品详情](http://www.rion-star.com/cpzx/gxdh/AH100B/2018/0204/112.html)
