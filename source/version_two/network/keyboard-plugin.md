@@ -16,8 +16,8 @@
 
 ### 要求:
 
-必须基于 Autolabor OS 使用
-
+* 必须基于 Autolabor OS 使用
+* 该插件与键盘鼠标不能同时使用，使用时需拔掉插在电脑上的键盘设备
 
 ### 一、下载与编译
 
@@ -46,7 +46,7 @@ git clone https://github.com/autolaborcenter/rviz_keyboard_plugin.git
 
 输入密码 `autolabor`，回车，然后执行
 
-`catkin build`
+`catkin build -j2`
 
 
 ### 二、安装

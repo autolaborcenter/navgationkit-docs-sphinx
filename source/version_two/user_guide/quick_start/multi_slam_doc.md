@@ -43,7 +43,7 @@ git clone https://github.com/autolaborcenter/rviz_navi_multi_goals_pub_plugin.gi
 
 输入密码 `autolabor`，回车，然后执行
 
-`catkin build`
+`catkin build -j2`
 
 
 #### 3. 编译完成后，启动【开始导航】

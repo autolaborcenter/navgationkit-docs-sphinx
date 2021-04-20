@@ -37,6 +37,8 @@
 
 远程桌面使用的是 NoMachine，这是一个多平台的远程桌面访问工具，图形化操作界面，支持 Windows/Mac/Linux，同一时间仅限 1 人连接（可理解为teamviewer）。
 
+**注：用户端主机与机器人端主机，都需要安装 NoMachine。**
+
 #### 下载NoMachine
 
 [Windows](http://download.autolabor.com.cn/software/nomachine_6.11.2_1.exe)/[OS X](http://download.autolabor.com.cn/software/nomachine_6.11.2_13.dmg)/[Ubuntu](http://download.autolabor.com.cn/software/nomachine_6.11.2_1_amd64.deb)

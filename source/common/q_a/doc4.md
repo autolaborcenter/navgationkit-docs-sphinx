@@ -12,7 +12,7 @@
 
 输入密码 `autolabor`，回车，然后执行
 
-`catkin build`
+`catkin build -j2`
 
 如过去曾经编译成功过，可只执行第二句命令 `caktin build` 即可。
 
