@@ -60,7 +60,7 @@
 									"name": "清点 - 台式 Mini 计算机 （已停产）",
 									"uri": "version_two/user_guide/quick_start/mini_old"
 								}
-						],
+						]
 					},
 					{
 						"name": "组装测试",
@@ -140,6 +140,20 @@
 										"uri": "version_two/network/keyboard-plugin"
 									}
 								]
+							},
+
+							{
+								"name": "Kinect V2使用手册",
+								"items": [
+									{
+										"name": "简介",
+										"uri": "version_two/Kinect/introduce"
+									},
+									{
+										"name": "使用",
+										"uri": "version_two/Kinect/open"
+									}
+								]
 							}
 						]
 					},
@@ -166,7 +180,7 @@
 										"name": "其他",
 										"uri": "common/q_a/doc4"
 								}
-						],
+						]
 					},
 					{
 						"name": "安装操作系统",
