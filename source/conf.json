@@ -141,7 +141,6 @@
 									}
 								]
 							},
-
 							{
 								"name": "Kinect V2使用手册",
 								"items": [
@@ -153,6 +152,7 @@
 										"name": "使用",
 										"uri": "version_two/kinect/open"
 									}
+									
 								]
 							}
 						]
