@@ -10,7 +10,6 @@
 
 ![](imgs/structure-chart01.png)
 
-
 # 查看Kinect RGB图像
 
 <b style="color:red;">前提：启动Kinect ROS驱动</b>
