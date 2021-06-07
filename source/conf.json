@@ -196,6 +196,14 @@
 								{
 										"name": "Live版AutolaborOS",
 										"uri": "common/os/live/doc"
+								},
+								{
+										"name": "引导修复",
+										"uri": "common/os/boot_repair/doc"
+								},
+								{
+										"name": "恢复用户数据",
+										"uri": "common/os/restore_data/doc"
 								}
 						],
 					},
