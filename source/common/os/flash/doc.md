@@ -1,6 +1,6 @@
 # 镜像烧录指南
 
-如果你需要升级更新版本的AutolaborOS，或者烧录AutolaborOS镜像到一个新的U盘，本文将引导你如何烧录镜像。
+如果你需要升级更新版本的AutolaborOS，或者烧录AutolaborOS镜像到一个新的U盘，本文将帮助你如何烧录镜像。
 
 ## 准备
 
