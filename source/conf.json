@@ -183,8 +183,21 @@
 						]
 					},
 					{
-						"name": "安装操作系统",
-						"uri": "common/install_os/doc"
+						"name": "操作系统相关",
+						"items":[
+								{
+									"name": "安装AutolaborOS",
+									"uri": "common/os/install/doc"
+								},
+								{
+										"name": "镜像烧录",
+										"uri": "common/os/install/doc"
+								},
+								{
+										"name": "Live版AutolaborOS",
+										"uri": "common/os/live/doc"
+								}
+						],
 					},
 					{
 						"name": "设备参考资料",

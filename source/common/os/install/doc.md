@@ -6,7 +6,9 @@
 
 * Autolabor OS 镜像盘 * 1
 
-> AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)。
+> AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)
+
+> 参考[镜像烧录指南](../flash/doc.md)
 
 ## 开始
 
@@ -28,7 +30,7 @@
 
   原则上，Autolabor OS 兼容市面所有 X86/AMD64 架构硬件平台，但我们无法保证其可用性。
 
-  如果你是富有挑战精神的人，我们当然欢迎你将 Autolabor OS 安装在任何 X86/AMD64 设备上，更欢迎给我们提出兼容性报告。
+  如果你富有挑战精神，我们也欢迎你尝试把 Autolabor OS 安装在任何 X86/AMD64 设备上，更欢迎给我们提出兼容性报告。
 
   为获得最佳使用体验，推荐使用 Autolabor PC 来搭载 Autolabor OS。
 
