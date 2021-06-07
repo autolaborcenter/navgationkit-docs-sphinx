@@ -147,11 +147,11 @@
 								"items": [
 									{
 										"name": "简介",
-										"uri": "version_two/Kinect/introduce"
+										"uri": "version_two/kinect/introduce"
 									},
 									{
 										"name": "使用",
-										"uri": "version_two/Kinect/open"
+										"uri": "version_two/kinect/open"
 									}
 								]
 							}
