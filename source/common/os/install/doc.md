@@ -12,13 +12,9 @@
 
 ## 开始
 
-* 新版Mini电脑请参考：
+  > 注意核对机型
 
-![](imgs/install_os.gif)
-
-* 旧版Mini电脑请参考：
-
-![](imgs/install_os_untill_2019_12_25.gif)
+![](imgs/install_os_complex.gif)
 
 ## 常见问题
 

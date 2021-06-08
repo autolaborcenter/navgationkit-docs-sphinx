@@ -12,7 +12,9 @@
 
 ## 开始
 
-  ![](imgs/enter_live_os.gif)
+  > 注意核对机型
+
+![](imgs/enter_live_os.gif)
 
 * 接下来，请参考[引导修复](../boot_repir/doc.md)或[恢复用户数据](../restore_data/doc.md)
 ## 常见问题
