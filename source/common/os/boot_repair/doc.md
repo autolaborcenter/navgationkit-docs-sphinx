@@ -4,35 +4,36 @@
 
   ![](imgs/boot_repair_grub2.jpg)
 
+## 准备
+
+1. *重要！* 进入`Live`版AutolaborOS[参考此处](../live/doc.md)
+
+2. 通过Wi-Fi或网线将Live版AutolaborOS接入互联网
+
 ## 开始
 
-* 进入Live版AutolaborOS[参考此处](../live/doc.md)
+1. 在终端中依次运行如下命令
 
-* 通过Wi-Fi或网线将Live版AutolaborOS接入互联网
-
-* 运行如下命令
-
-  1.添加软件源
-
+  * 添加软件源
   ```
   sudo add-apt-repository ppa:yannubuntu/boot-repair
   ```
 
-  2.安装`boot-repair`
+  * 安装`boot-repair`
   ```
   sudo apt-get install -y boot-repair
   ```
 
-  3.启动`boot-repair`
+  * 启动`boot-repair`
   ```
   boot-repair
   ```
 
-* 选择`Reconmmended repair`
+2. 选择`Reconmmended repair`
 
   ![](imgs/boot_repair_bootup.jpg)
 
-* 引导修复完成后，请弹出U盘并重启
+3. 引导修复完成后，请弹出U盘并重启
 
 ## 常见问题
 

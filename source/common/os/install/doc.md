@@ -6,9 +6,11 @@
 
 * Autolabor OS 镜像盘 * 1
 
-> AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)
+* 可能需要：
 
-> 参考[镜像烧录指南](../flash/doc.md)
+  > AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)
+
+  > 镜像烧录指南[参考此处](../flash/doc.md)
 
 ## 开始
 

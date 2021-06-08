@@ -4,13 +4,11 @@
 
 ## 准备
 
-* U盘：容量为8GB或以上
+1. U盘：容量为8GB或以上
 
-* 镜像：[AutolaborOS](http://www.autolabor.com.cn/download)
+2. 镜像：[AutolaborOS](http://www.autolabor.com.cn/download)
 
-* 烧录工具：[Etcher](https://www.balena.io/etcher/)
-
-  > 适用于Windows、macOS、Linux多平台开源烧录工具
+3. 烧录工具：[Etcher](https://www.balena.io/etcher/) (适用于Windows、macOS、Linux多平台开源烧录工具)
 
 ## 开始
 

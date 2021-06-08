@@ -6,9 +6,11 @@
 
 * Autolabor OS 镜像盘 * 1
 
-> AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)
+* 可能需要：
 
-> 参考[镜像烧录指南](../flash/doc.md)
+  > AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)
+
+  > 镜像烧录指南[参考此处](../flash/doc.md)
 
 ## 开始
 
@@ -16,7 +18,12 @@
 
 ![](imgs/enter_live_os.gif)
 
-* 接下来，请参考[引导修复](../boot_repir/doc.md)或[恢复用户数据](../restore_data/doc.md)
+
+当Live版AutolaborOS启动完成后，你可能还需要：
+
+  * 修复引导[参考此处](../boot_repair/doc.md)
+
+  * 恢复用户数据[参考此处](../restore_data/doc.md)
 ## 常见问题
 
 
