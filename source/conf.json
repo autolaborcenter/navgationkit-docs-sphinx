@@ -66,6 +66,10 @@
 						"name": "组装测试",
 						"items":[
 								{
+									"name": "电池安装",
+									"uri": "version_two/user_guide/assembly_test/battery_install"
+								},
+								{
 									"name": "组装 - 挂式 Mini 计算机",
 									"uri": "version_two/user_guide/assembly_test/mini_new"
 								},
@@ -154,7 +158,7 @@
 									}
 									
 								]
-							},
+							}
 						]
 					},
 					{
@@ -205,7 +209,7 @@
 										"name": "恢复用户数据",
 										"uri": "common/os/restore_data/doc"
 								}
-						],
+						]
 					},
 					{
 						"name": "设备参考资料",
