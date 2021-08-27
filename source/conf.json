@@ -195,7 +195,7 @@
 								},
 								{
 										"name": "镜像烧录",
-										"uri": "common/os/install/doc"
+										"uri": "common/os/flash/doc"
 								},
 								{
 										"name": "Live版AutolaborOS",
