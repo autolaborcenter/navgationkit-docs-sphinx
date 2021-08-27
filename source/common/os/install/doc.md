@@ -10,7 +10,7 @@
 
   > AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)
 
-  > 镜像烧录指南[参考此处](../flash/doc.md)
+  > 镜像烧录指南[参考此处](/usedoc/navigationKit2/common/os/flash/doc)
 
 ## 开始
 

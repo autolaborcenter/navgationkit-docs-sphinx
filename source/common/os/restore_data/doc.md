@@ -4,7 +4,7 @@
 
 ## 准备
 
-1. *重要！* 进入`Live版`AutolaborOS[参考此处](../live/doc.md)
+1. *重要！* 进入`Live版`AutolaborOS[参考此处](/usedoc/navigationKit2/common/os/live/doc)
 
 ## 开始
 

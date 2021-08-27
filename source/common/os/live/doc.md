@@ -10,7 +10,7 @@
 
   > AutolaborOS 镜像[下载](http://www.autolabor.com.cn/download)
 
-  > 镜像烧录指南[参考此处](../flash/doc.md)
+  > 镜像烧录指南[参考此处](/usedoc/navigationKit2/common/os/flash/doc)
 
 ## 开始
 
@@ -21,9 +21,9 @@
 
 当Live版AutolaborOS启动完成后，你可能还需要：
 
-  * 修复引导[参考此处](../boot_repair/doc.md)
+  * 修复引导[参考此处](/usedoc/navigationKit2/common/os/boot_repair/doc)
 
-  * 恢复用户数据[参考此处](../restore_data/doc.md)
+  * 恢复用户数据[参考此处](/usedoc/navigationKit2/common/os/restore_data/doc)
 ## 常见问题
 
 

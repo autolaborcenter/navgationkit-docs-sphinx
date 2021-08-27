@@ -6,7 +6,7 @@
 
 ## 准备
 
-1. *重要！* 进入`Live`版AutolaborOS[参考此处](../live/doc.md)
+1. *重要！* 进入`Live`版AutolaborOS[参考此处](/usedoc/navigationKit2/common/os/live/doc)
 
 2. 通过Wi-Fi或网线将Live版AutolaborOS接入互联网
 
