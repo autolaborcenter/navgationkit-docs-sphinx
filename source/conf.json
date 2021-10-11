@@ -55,11 +55,11 @@
 								{
 									"name": "清点 - 挂式 Mini 计算机",
 									"uri": "version_two/user_guide/quick_start/mini_new"
-								},
-								{
-									"name": "清点 - 台式 Mini 计算机 （已停产）",
-									"uri": "version_two/user_guide/quick_start/mini_old"
 								}
+								// {
+								// 	"name": "清点 - 台式 Mini 计算机 （已停产）",
+								// 	"uri": "version_two/user_guide/quick_start/mini_old"
+								// }
 						]
 					},
 					{
@@ -73,10 +73,10 @@
 									"name": "组装 - 挂式 Mini 计算机",
 									"uri": "version_two/user_guide/assembly_test/mini_new"
 								},
-								{
-									"name": "组装 - 台式 Mini 计算机 （已停产）",
-									"uri": "version_two/user_guide/assembly_test/mini_old"
-								},
+								// {
+								// 	"name": "组装 - 台式 Mini 计算机 （已停产）",
+								// 	"uri": "version_two/user_guide/assembly_test/mini_old"
+								// },
 								{
 									"name": "测试",
 									"uri": "version_two/user_guide/assembly_test/test"
@@ -217,10 +217,10 @@
 					}
 				]
 			},
-			{
-				"name": "Autolabor Pro1 (单雷达) （已停产）",
-				"uri": "/usedoc/navigationKit1"
-			},
+			// {
+			// 	"name": "Autolabor Pro1 (单雷达) （已停产）",
+			// 	"uri": "/usedoc/navigationKit1"
+			// },
 			{
 				"name": "AP1 底盘",
 				"uri": "/usedoc/ap1"
