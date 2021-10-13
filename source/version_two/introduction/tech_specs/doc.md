@@ -20,7 +20,7 @@
 | 核心频率          | 3.5 GHz                   | 3.6 GHz |
 | 加速频率          | 3.7 GHz                   | 4.0 GHz |
 | 核心/线程         | 4 / 4                       | 4 / 4 |
-| GPU核心           | 4                         | 8 |
+| GPU核心           | 8                         | 8 |
 | 核显              | Radeon™ Vega 8 1100 MHz<sup>2</sup>    | Radeon™ Vega 8 1250MHz<sup>3</sup> |
 | FP16（half）      | 2.253 TFLOPS （2：1）     | 2.560 TFLOPS (2:1)  |
 | FP32（float）     | 1126 GFLOPS              | 1280 GFLOPS |
