@@ -4,7 +4,7 @@
 
 | 项目                 | 规格            |
 | ------------------- | --------------- |
-| CPU          | AMD® Ryzen3 2200G          |
+| CPU          | AMD® Ryzen3 2200G / AMD® Ryzen3 3200G |
 | 芯片组        | AMD® A300 |
 | RAM          | DDR4 8GB    |
 | ROM           | SSD 250GB         |
@@ -12,18 +12,19 @@
 | 蓝牙         | 支持          |
 | 扩展接口        | 参见[接口图片](#interface) |
 
-* CPU （AMD Ryzen3 2200G <sup>1</sup>）
+* CPU<sup>1</sup>
 
-| 项目              | 规格                      |
-| ---------------- | --------------------------|
-| 核心频率          | 3.5 GHz                   |
-| 加速频率          | 3.7 GHz                   |
-| 核心/线程         | 4 / 4                       |
-| GPU核心           | 4                         |
-| 核显              | Radeon Vega 8 1100 MHz    |
-| FP16（half）      | 2.253 TFLOPS （2：1）     |
-| FP32（float）     | 1,126 GFLOPS              |
-| FP64（double）    | 70.40 GFLOPS （1:16）     |
+| 项目              |           |        |
+| ---------------- | -------------------------- | -------------------------- |
+| 型号              | AMD® Ryzen3 2200G          | AMD® Ryzen3 3200G          |
+| 核心频率          | 3.5 GHz                   | 3.6 GHz |
+| 加速频率          | 3.7 GHz                   | 4.0 GHz |
+| 核心/线程         | 4 / 4                       | 4 / 4 |
+| GPU核心           | 4                         | 8 |
+| 核显              | Radeon™ Vega 8 1100 MHz<sup>2</sup>    | Radeon™ Vega 8 1250MHz<sup>3</sup> |
+| FP16（half）      | 2.253 TFLOPS （2：1）     | 2.560 TFLOPS (2:1)  |
+| FP32（float）     | 1126 GFLOPS              | 1280 GFLOPS |
+| FP64（double）    | 70.40 GFLOPS （1:16）     | 80.00 GFLOPS (1:16)  |
 
 * 电源组件
 
@@ -68,7 +69,7 @@
 | 垂直视角             | 60 °            |
 | 通信接口              | USB 3.0       |
 
-* 定位系统 <sup>2</sup>
+* 定位系统 <sup>4</sup>
 
 | 项目                 | 规格            |
 | ------------------- | --------------- |
@@ -89,4 +90,8 @@
 
 <sup>1</sup> 附CPU性能天梯图供参考：https://www.mydrivers.com/zhuanti/tianti/cpu/index.html
 
-<sup>2</sup> 仅高配版含此功能
+<sup>2</sup> 参考链接：https://www.techpowerup.com/gpu-specs/radeon-vega-8.c3042
+
+<sup>3</sup> 参考链接：https://www.techpowerup.com/gpu-specs/radeon-vega-8.c3286
+
+<sup>4</sup> 仅高配版含此功能
