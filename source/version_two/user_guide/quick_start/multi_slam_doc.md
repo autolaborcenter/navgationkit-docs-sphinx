@@ -1,11 +1,22 @@
-#  SLAM 多点导航功能包
-
-## navi_multi_goals_pub_rviz_plugin
+#  SLAM 多点导航
 
 
-### 描述：
+### 功能描述：
 
-该功能包为SLAM 建图导航提供可发布多个目标点任务的导航方式。
+在SLAM 导航时提供可发布多个目标点任务的导航方式。
+
+
+## 适用系统版本
+
+AutolaborOS-2.2.1及以上
+
+注：如是2.2.1以下的版本需要手动下载安装该功能包，安装教程见本文最末。
+
+OS系统->设置->详细信息可查看系统版本号，如无版本号则为2.2.1以下版本。
+
+### 适用功能：
+
+2D SLAM / 3D SLAM
 
 ### 要求:
 
@@ -14,45 +25,17 @@
 ![](imgs/intro.png)
 
 
-### 一、安装与配置
+### 一、配置
 
 
-#### 1. 下载程序包
-
-进入 /home/autolabor/catkin_ws/src 目录，执行
-
-```
-git clone https://github.com/autolaborcenter/rviz_navi_multi_goals_pub_plugin.git
-```
-
-或访问 https://github.com/autolaborcenter/rviz_navi_multi_goals_pub_plugin.git 下载源代码，放入 /home/autolabor/catkin_ws/src 目录中
-
-![](imgs/download-file.png)
-
-给新加入的文件添加操作权限，在/home/autolabor/catkin_ws 目录下，右键打开终端，执行
-
-`sudo chmod -R 777 /home/autolabor/catkin_ws/src/`
-
-输入密码 `autolabor`，回车
-
-#### 2. 编译
-
-还是在 /home/autolabor/catkin_ws 目录下，终端执行
-
-`sudo rm -rf build/ devel/ logs/ .catkin_tools/`
-
-输入密码 `autolabor`，回车，然后执行
-
-`catkin build -j2`
-
-
-#### 3. 编译完成后，启动【开始导航】
+准备工作：启动【开始导航】
 
 **注：要求提前建好地图。**
 
 ![](imgs/intro1.png)
 
-#### 4. 加载插件
+
+#### 1. 加载功能包
 
 RViz 的左上角依次点击 Panels -> Add New Panel -> navi_multi_goals_pub_rviz_plugin -> MultiNaviGoalsPanel
 
@@ -69,17 +52,9 @@ RViz 的左上角依次点击 Panels -> Add New Panel -> navi_multi_goals_pub_rv
 
 #### 5. 修改配置
 
-##### 1) 新增 marker （目标点标记）
-
-RViz 左侧 Display -> add -> Marker
-
-<img style="float: left;" src="imgs/intro5.png" />
-<img style="float: right;" src="imgs/intro6.png" />
-<div style="clear: both;"></div>
-
 ***
 
-##### 2) 修改 2D Nav Goal 按钮话题
+##### 修改 2D Nav Goal 按钮话题
 
 RViz 的左上角 Panels->Add New Panel-> Tool Property
 
@@ -90,6 +65,19 @@ RViz 的左上角 Panels->Add New Panel-> Tool Property
 <div style="clear: both;"></div>
 
 <img src="imgs/intro9.png" />
+
+***
+
+##### 新增 marker （目标点标记）
+
+注：仅AutolaborOS-2.2.1以下版本需进行此操作
+
+RViz 左侧 Display -> add -> Marker
+
+<img style="float: left;" src="imgs/intro5.png" />
+<img style="float: right;" src="imgs/intro6.png" />
+<div style="clear: both;"></div>
+
 
 ***
 
@@ -159,3 +147,42 @@ RViz 的左上角 Panels->Add New Panel-> Tool Property
 勾选循环，单次任务完成后，会从最后一个目标点到第一个目标点，显示颜色为蓝色。
 
 ![](imgs/intro15.png)
+
+
+*** 
+
+### 附录：安装方法
+
+#### 适用系统
+
+AutolaborOS2.2.1 以下系统用户
+
+
+#### 1. 下载程序包
+
+进入 /home/autolabor/catkin_ws/src 目录，执行
+
+```
+git clone https://github.com/autolaborcenter/rviz_navi_multi_goals_pub_plugin.git
+```
+
+或访问 https://github.com/autolaborcenter/rviz_navi_multi_goals_pub_plugin.git 下载源代码，放入 /home/autolabor/catkin_ws/src 目录中
+
+![](imgs/download-file.png)
+
+给新加入的文件添加操作权限，在/home/autolabor/catkin_ws 目录下，右键打开终端，执行
+
+`sudo chmod -R 777 /home/autolabor/catkin_ws/src/`
+
+输入密码 `autolabor`，回车
+
+#### 2. 编译
+
+还是在 /home/autolabor/catkin_ws 目录下，终端执行
+
+`sudo rm -rf build/ devel/ logs/ .catkin_tools/`
+
+输入密码 `autolabor`，回车，然后执行
+
+`catkin build -j2`
+

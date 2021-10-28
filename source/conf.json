@@ -99,10 +99,19 @@
 								"items": [
 									{
 										"name": "快速上手",
-										"uri": "version_two/user_guide/quick_start/slam_doc"
+										"items": [
+											{
+												"name": "2D SLAM",
+												"uri": "version_two/user_guide/quick_start/2d_slam_doc"
+											},
+											{
+												"name": "3D SLAM",
+												"uri": "version_two/user_guide/quick_start/3d_slam_doc"
+											}
+										]
 									},
 									{
-										"name": "SLAM 多点导航功能包",
+										"name": "SLAM 多点导航",
 										"uri": "version_two/user_guide/quick_start/multi_slam_doc"
 									}
 								]								
