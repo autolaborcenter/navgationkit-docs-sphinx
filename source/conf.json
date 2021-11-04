@@ -62,12 +62,10 @@
 									{
 										"name": "3D SLAM",
 										"uri": "version_two/user_guide/quick_start/check_3dslam"
-
 									},
 									{
 										"name": "定位标签版",
 										"uri": "version_two/user_guide/quick_start/check_location"
-										
 									}
 								]		
 							}
