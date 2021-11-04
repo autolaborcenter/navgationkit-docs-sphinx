@@ -5,8 +5,10 @@ Autolabor Pro1 机器人发货清单：
 
 | 序号 | 名称     | 发货数量（件） | 明细 |
 | -------- |  -------- | ---- |---- |
-| 1 | Autolabor Pro1 高配版  |   4   | 机器人底盘 x1  导航套件 x1  定位标签 x1  定位标签立柱 x1 |
-| 2 | Autolabor Pro1 中配版    |   2   | 机器人底盘 x1 导航套件 x1  |
+| 1 | Autolabor Pro1 定位标签版  |   4   | 机器人底盘 x1  导航套件 x1  定位标签 x1  定位标签立柱 x1 |
+| 2 | Autolabor Pro1 3D SLAM 版    |   3   | 机器人底盘 x1 导航套件 x1 多线激光雷达 x1  
+| 3 | Autolabor Pro1 标准版    |   2   | 机器人底盘 x1 导航套件 x1  |
+| 4 | Autolabor Pro1 机器人底盘    |   1   | 机器人底盘 x1 |
 
 
 ## 检查
