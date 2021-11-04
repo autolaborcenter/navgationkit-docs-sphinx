@@ -27,7 +27,7 @@ Autolabor Pro1 机器人发货清单：
 
 ***
 
-## 选择对应的产品类型
+<!-- ## 选择对应的产品类型
 
 <table>
   <tr>
@@ -39,3 +39,4 @@ Autolabor Pro1 机器人发货清单：
     <td><a href="/usedoc/navigationKit2/version_two/user_guide/quick_start/mini_old"><img src="imgs/receipt-0.JPG"/></a></td>
   </tr>
 </table>
+ -->

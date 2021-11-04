@@ -25,41 +25,54 @@
 		},
 		"items": [
 			{
-				"name": "Autolabor Pro1 (双雷达)",
+				"name": "Autolabor Pro1",
 				"isOpen": false,
 				"items": [
-					{
-						"name": "产品介绍",
-						"items": [
-							{
-								"name": "产品概览",
-								"uri": "version_two/introduction/overview/doc"
-							},
-							{
-								"name": "规格参数",
-								"uri": "version_two/introduction/tech_specs/doc"
-							},
-							{
-								"name": "发货清单",
-								"uri": "version_two/introduction/inthebox/doc"
-							}
-						]
-					},
+					// {
+					// 	"name": "产品介绍",
+					// 	"items": [
+					// 		{
+					// 			"name": "产品概览",
+					// 			"uri": "version_two/introduction/overview/doc"
+					// 		},
+					// 		{
+					// 			"name": "规格参数",
+					// 			"uri": "version_two/introduction/tech_specs/doc"
+					// 		},
+					// 		{
+					// 			"name": "发货清单",
+					// 			"uri": "version_two/introduction/inthebox/doc"
+					// 		}
+					// 	]
+					// },
 					{
 						"name": "收货指南",
 						"items":[
-								{
-									"name": "检查",
-									"uri": "version_two/user_guide/quick_start/receipt"
-								},
-								{
-									"name": "清点 - 挂式 Mini 计算机",
-									"uri": "version_two/user_guide/quick_start/mini_new"
-								}
-								// {
-								// 	"name": "清点 - 台式 Mini 计算机 （已停产）",
-								// 	"uri": "version_two/user_guide/quick_start/mini_old"
-								// }
+							{
+								"name": "检查",
+								"uri": "version_two/user_guide/quick_start/receipt"
+							},
+							{
+								"name": "清点",
+								"items":[
+									{	
+										"name": "标准",
+										"uri": "version_two/user_guide/quick_start/check_standard"
+									},
+									{
+										"name": "3D SLAM",
+										"uri": "version_two/user_guide/assembly_test/check_3dslam"
+									},
+									{
+										"name": "定位标签版",
+										"uri": "version_two/user_guide/assembly_test/check_location"
+									}
+								]		
+							}
+							// {
+							// 	"name": "清点 - 台式 Mini 计算机 （已停产）",
+							// 	"uri": "version_two/user_guide/quick_start/mini_old"
+							// }
 						]
 					},
 					{
@@ -70,7 +83,7 @@
 									"uri": "version_two/user_guide/assembly_test/battery_install"
 								},
 								{
-									"name": "组装 - 挂式 Mini 计算机",
+									"name": "组装",
 									"uri": "version_two/user_guide/assembly_test/mini_new"
 								},
 								// {
@@ -155,15 +168,20 @@
 								]
 							},
 							{
-								"name": "Kinect V2使用手册",
+								"name": "深度相机",
 								"items": [
 									{
-										"name": "简介",
-										"uri": "version_two/kinect/introduce"
-									},
-									{
-										"name": "使用",
-										"uri": "version_two/kinect/open"
+										"name":"kinect V2",
+										"items":[
+											{
+												"name": "简介",
+												"uri": "version_two/kinect/introduce"
+											},
+											{
+												"name": "使用",
+												"uri": "version_two/kinect/open"
+											}
+										]
 									}
 									
 								]
@@ -198,31 +216,40 @@
 					{
 						"name": "操作系统相关",
 						"items":[
-								{
-									"name": "安装AutolaborOS",
-									"uri": "common/os/install/doc"
-								},
-								{
-										"name": "镜像烧录",
-										"uri": "common/os/flash/doc"
-								},
-								{
-										"name": "Live版AutolaborOS",
-										"uri": "common/os/live/doc"
-								},
-								{
-										"name": "引导修复",
-										"uri": "common/os/boot_repair/doc"
-								},
-								{
-										"name": "恢复用户数据",
-										"uri": "common/os/restore_data/doc"
-								}
+							{
+								"name": "安装AutolaborOS",
+								"uri": "common/os/install/doc"
+							},
+							{
+									"name": "镜像烧录",
+									"uri": "common/os/flash/doc"
+							},
+							{
+									"name": "Live版AutolaborOS",
+									"uri": "common/os/live/doc"
+							},
+							{
+									"name": "引导修复",
+									"uri": "common/os/boot_repair/doc"
+							},
+							{
+									"name": "恢复用户数据",
+									"uri": "common/os/restore_data/doc"
+							}
 						]
 					},
 					{
-						"name": "设备参考资料",
-						"uri": "common/reference/doc"
+						"name": "设备资料",
+						"items":[
+							{
+								"name": "规格参数",
+								"uri": "version_two/introduction/tech_specs/doc"
+							},
+							{
+								"name": "参考资料",
+								"uri": "common/reference/doc"
+							}
+						]
 					}
 				]
 			},
@@ -231,7 +258,7 @@
 			// 	"uri": "/usedoc/navigationKit1"
 			// },
 			{
-				"name": "AP1 底盘",
+				"name": "机器人底盘",
 				"uri": "/usedoc/ap1"
 			}
 
