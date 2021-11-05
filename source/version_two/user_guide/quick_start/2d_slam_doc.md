@@ -127,3 +127,10 @@ RVIZ工具打开，建好的地图会自动加载。
 
 
 [>>常见问题](/usedoc/navigationKit2/common/q_a/doc2)
+
+## 附录 - 软件功能图
+
+
+![](imgs/software_intro_1.jpg)
+
+![](imgs/software_intro_2.jpg)

@@ -315,6 +315,13 @@ Channel -> 0
 [>>常见问题](/usedoc/navigationKit2/common/q_a/doc3)
 
 
+
+## 附录 - 软件功能图
+
+
+![](imgs/software_intro_3.jpg)
+
+
 ***
 
 
