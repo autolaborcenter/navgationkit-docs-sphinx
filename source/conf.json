@@ -83,13 +83,13 @@
 									"uri": "version_two/user_guide/assembly_test/battery_install"
 								},
 								{
-									"name": "组装",
+									"name": "组装-标准",
 									"uri": "version_two/user_guide/assembly_test/mini_new"
 								},
-								// {
-								// 	"name": "组装 - 台式 Mini 计算机 （已停产）",
-								// 	"uri": "version_two/user_guide/assembly_test/mini_old"
-								// },
+								{
+									"name": "组装-3D SLAM",
+									"uri": "version_two/user_guide/assembly_test/assemble"
+								},
 								{
 									"name": "测试",
 									"uri": "version_two/user_guide/assembly_test/test"
