@@ -2,12 +2,16 @@
 
 * 砝石™ FS-D10 激光雷达：
   * [产品详情](http://www.faselase.com/chanpinshuomingshuxiazai.html)
-  
+  * 
+* 乐动™ LD19 激光雷达
+  * [产品详情](https://www.ldrobot.com/product/111)
+  * [技术支持](https://www.ldrobot.com/download/111)
+
 * Robosense™ RS-LiDAR-6 激光雷达：
   * [产品详情](https://www.robosense.ai/rslidar/RS-LiDAR-16)
   * [相关下载](https://www.robosense.ai/resources-27)
 
-* Kinect V2：
+* Microsoft™ Kinect V2：
   *  Windows：[Link 1](https://www.microsoft.com/en-us/download/details.aspx?id=44561)/[Link 2](https://developer.microsoft.com/en-us/windows/kinect/)/[Link 3](https://docs.microsoft.com/en-us/previous-versions/windows/kinect/dn758761(v=ieb.10))
 
 * Vzense™ DCAM710 深度相机:
@@ -46,5 +50,8 @@
   * [产品详情](https://www.amd.com/zh-hans/products/apu/amd-ryzen-3-3200g)
   * [驱动与支持](https://www.amd.com/zh-hans/support/apu/amd-ryzen-processors/amd-ryzen-3-desktop-processors-radeon-vega-graphics/amd-ryzen-3-1)
 
+* Intel™ AC7260 无线网卡
+  * [产品详情及技术支持](https://ark.intel.com/content/www/cn/zh/ark/products/75439/intel-dual-band-wirelessac-7260.html)
+  
 * INNFOS™ 机械臂：
   * [Wiki](http://wiki.mintasca.cloudminds.com/wiki/cn/index.html) 
