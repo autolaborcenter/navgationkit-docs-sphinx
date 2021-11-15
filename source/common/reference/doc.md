@@ -2,7 +2,7 @@
 
 * 砝石™ FS-D10 激光雷达：
   * [产品详情](http://www.faselase.com/chanpinshuomingshuxiazai.html)
-  * 
+
 * 乐动™ LD19 激光雷达
   * [产品详情](https://www.ldrobot.com/product/111)
   * [技术支持](https://www.ldrobot.com/download/111)
