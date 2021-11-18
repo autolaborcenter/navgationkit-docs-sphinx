@@ -11,8 +11,8 @@
 
 注：激光雷达与深度相机安装支架为一体
 
-![](imgs/IMG_0685.jpg)
-![](imgs/IMG_0685-2.jpg)
+<!-- ![](imgs/IMG_0685.jpg)
+![](imgs/IMG_0685-2.jpg) -->
 
 
 ## Mini 计算机
