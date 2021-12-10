@@ -56,11 +56,11 @@
 								"name": "清点",
 								"items":[
 									{	
-										"name": "标准",
+										"name": "标准版",
 										"uri": "version_two/user_guide/quick_start/check_standard"
 									},
 									{
-										"name": "3D SLAM",
+										"name": "3D SLAM 版",
 										"uri": "version_two/user_guide/quick_start/check_3dslam"
 									},
 									{
@@ -78,18 +78,27 @@
 					{
 						"name": "组装测试",
 						"items":[
-								{
-									"name": "电池安装",
-									"uri": "version_two/user_guide/assembly_test/battery_install"
-								},
-								{
-									"name": "组装",
-									"uri": "version_two/user_guide/assembly_test/mini_new"
-								},
 								// {
-								// 	"name": "组装-3D SLAM",
-								// 	"uri": "version_two/user_guide/assembly_test/assemble"
+								// 	"name": "电池安装",
+								// 	"uri": "version_two/user_guide/assembly_test/battery_install"
 								// },
+								{
+								"name": "组装",
+								"items":[
+										{	
+											"name": "标准版",
+											"uri": "version_two/user_guide/assembly_test/standard"
+										},
+										{
+											"name": "3D SLAM 版",
+											"uri": "version_two/user_guide/assembly_test/3dslam"
+										},
+										{
+											"name": "定位标签版",
+											"uri": "version_two/user_guide/assembly_test/location"
+										}
+									]		
+								},
 								{
 									"name": "测试",
 									"uri": "version_two/user_guide/assembly_test/test"
