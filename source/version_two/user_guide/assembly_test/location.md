@@ -21,8 +21,6 @@
 
 <video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B62021-%E8%AE%A1%E7%AE%97%E6%9C%BA.mp4" width="100%" height="100%" controls="controls"></video>
 
-![](./imgs/IMG_0726.JPG)
-
 ## 显示器
 
 <video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B62021-%E6%98%BE%E7%A4%BA%E5%99%A8.mp4" width="100%" height="100%" controls="controls"></video>

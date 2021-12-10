@@ -50,9 +50,7 @@
 
 ![](./imgs/IMG_0726.JPG)
 ![](./imgs/IMG_0698.jpg)
-![](./imgs/IMG_0700.jpg)
 ![](./imgs/IMG_0697.jpg)
-![](./imgs/IMG_0699.jpg)
 ![](./imgs/IMG_0724.JPG)
 
 ### 电气拓扑
