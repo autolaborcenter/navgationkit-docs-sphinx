@@ -46,12 +46,10 @@
   * [产品详情](https://www.amd.com/zh-hans/products/apu/amd-ryzen-3-2200g)
   * [驱动与支持](https://www.amd.com/zh-hans/support/apu/amd-ryzen-processors/amd-ryzen-3-desktop-processors-radeon-vega-graphics/amd-ryzen-3-0)
 
-* AMD™ Ryzen 3 2300G CPU：
+* AMD™ Ryzen 3 3200G CPU：
   * [产品详情](https://www.amd.com/zh-hans/products/apu/amd-ryzen-3-3200g)
   * [驱动与支持](https://www.amd.com/zh-hans/support/apu/amd-ryzen-processors/amd-ryzen-3-desktop-processors-radeon-vega-graphics/amd-ryzen-3-1)
 
 * Intel™ AC7260 无线网卡
   * [产品详情及技术支持](https://ark.intel.com/content/www/cn/zh/ark/products/75439/intel-dual-band-wirelessac-7260.html)
   
-* INNFOS™ 机械臂：
-  * [Wiki](http://wiki.mintasca.cloudminds.com/wiki/cn/index.html) 
