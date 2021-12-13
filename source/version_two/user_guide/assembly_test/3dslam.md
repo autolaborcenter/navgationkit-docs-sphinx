@@ -1,6 +1,8 @@
 # 3D SLAM 版
 
-## 设备结构介绍
+## 电气拓扑结构图
+
+![](./imgs/autolabor_navigationkit_3d_electrical_topology_standard_3dslam.png)
 
 ## 支架
 
@@ -37,6 +39,12 @@
 
 <video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B62021-%E5%8D%95%E7%BA%BF%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE.mp4" width="100%" height="100%" controls="controls"></video>
 
+## 惯导
+
+<video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B62021-%E6%83%AF%E5%AF%BC.mp4" width="100%" height="100%" controls="controls"></video>
+
+
+
 ## USB-HUB
 
 ![](./imgs/IMG_0726.JPG)
@@ -44,7 +52,3 @@
 ![](./imgs/IMG_0697.jpg)
 ![](./imgs/IMG_0699.jpg)
 ![](./imgs/IMG_0724.JPG)
-
-
-### 电气拓扑
-![](./imgs/autolabor_navigationkit_3d_electrical_topology.svg)
