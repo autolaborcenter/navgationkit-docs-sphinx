@@ -1,6 +1,8 @@
 # 定位标签版
 
-## 设备结构介绍
+## 电气拓扑结构图
+
+![](./imgs/autolabor_navigationkit_3d_electrical_topology_location.png)
 
 ## 深度相机 Kinect V2
 
@@ -58,6 +60,4 @@
 ![](./imgs/IMG_0700.jpg)
 ![](./imgs/IMG_0697.jpg)
 
-
-### 电气拓扑
 

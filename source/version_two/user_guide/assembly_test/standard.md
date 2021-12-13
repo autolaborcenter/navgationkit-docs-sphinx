@@ -1,6 +1,8 @@
 # 标准版
 
-## 设备结构介绍
+## 电气拓扑结构图
+
+![](./imgs/autolabor_navigationkit_3d_electrical_topology_standard.png)
 
 ## 深度相机 Kinect V2
 
@@ -52,6 +54,3 @@
 ![](./imgs/IMG_0698.jpg)
 ![](./imgs/IMG_0697.jpg)
 ![](./imgs/IMG_0724.JPG)
-
-### 电气拓扑
-
