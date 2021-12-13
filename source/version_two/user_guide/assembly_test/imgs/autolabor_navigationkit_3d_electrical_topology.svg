@@ -92,15 +92,17 @@
         </g>
         <path stroke="#ef2929" fill="none" transform="translate(248.84,220.79)" id="shape15" stroke-width="2.666670083999634" stroke-linecap="round" d="M.0,.0L69.5,.0"/>
         <g transform="matrix(1.00,-0.00,0.00,1.00,1125.8,263.1)" id="shape16">
-            <path fill="#7030a0" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L48.3,32.1L58.0,16.0L48.3,.0L.0,.0L.0,32.1z"/>
+            <path fill="#fda98d" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L48.3,32.1L58.0,16.0L48.3,.0L.0,.0L.0,32.1z"/>
             <text transform="matrix(1.00,-0.00,0.00,1.00,0.0,0.0)" xml:space="preserve" style="fill:#feffff;font-family:Microsoft YaHei, Microsoft Yahei;font-size:10.00pt;font-weight:bold">
-                <tspan x="5.2" y="21.0">XH2.54</tspan>
+                <tspan x="5.2" y="12.0">XH2.54</tspan>
+                <tspan x="10.6" y="30.0">10Pin</tspan>
             </text>
         </g>
         <g transform="matrix(-1.00,0.00,0.00,-1.00,1118.6,295.1)" id="shape17">
-            <path fill="#7030a0" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L45.7,32.1L58.0,16.0L45.7,.0L.0,.0L.0,32.1z"/>
+            <path fill="#fda98d" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L45.7,32.1L58.0,16.0L45.7,.0L.0,.0L.0,32.1z"/>
             <text transform="matrix(-1.00,0.00,0.00,-1.00,58.0,32.1)" xml:space="preserve" style="fill:#feffff;font-family:Microsoft YaHei, Microsoft Yahei;font-size:10.00pt;font-weight:bold">
-                <tspan x="5.2" y="21.0">XH2.54</tspan>
+                <tspan x="5.2" y="12.0">XH2.54</tspan>
+                <tspan x="10.6" y="30.0">10Pin</tspan>
             </text>
         </g>
         <g transform="matrix(1.00,0.00,0.00,-1.00,581.6,229.0)" id="shape18">
@@ -132,15 +134,17 @@
         <path stroke="#000000" fill="none" transform="translate(1063.24,163.75)" id="shape22" stroke-width="2.666670083999634" stroke-linecap="round" d="M.0,.0L-426.3,-0.0"/>
         <path stroke="#000000" fill="none" transform="translate(639.62,212.96)" id="shape23" stroke-width="2.666670083999634" stroke-linecap="round" d="M.0,.0L421.0,.0"/>
         <g transform="matrix(1.00,-0.00,0.00,1.00,1125.8,337.4)" id="shape24">
-            <path fill="#7030a0" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L48.3,32.1L58.0,16.0L48.3,.0L.0,.0L.0,32.1z"/>
+            <path fill="#fda98d" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L48.3,32.1L58.0,16.0L48.3,.0L.0,.0L.0,32.1z"/>
             <text transform="matrix(1.00,-0.00,0.00,1.00,0.0,0.0)" xml:space="preserve" style="fill:#feffff;font-family:Microsoft YaHei, Microsoft Yahei;font-size:10.00pt;font-weight:bold">
-                <tspan x="5.2" y="21.0">XH2.54</tspan>
+                <tspan x="5.2" y="12.0">XH2.54</tspan>
+                <tspan x="10.6" y="30.0">10Pin</tspan>
             </text>
         </g>
         <g transform="matrix(-1.00,0.00,0.00,-1.00,1118.6,369.4)" id="shape25">
-            <path fill="#7030a0" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L45.7,32.1L58.0,16.0L45.7,.0L.0,.0L.0,32.1z"/>
+            <path fill="#fda98d" stroke="#000000" stroke-width="2.666670083999634" stroke-linecap="square" fill-rule="evenodd" d="M.0,32.1L45.7,32.1L58.0,16.0L45.7,.0L.0,.0L.0,32.1z"/>
             <text transform="matrix(-1.00,0.00,0.00,-1.00,58.0,32.1)" xml:space="preserve" style="fill:#feffff;font-family:Microsoft YaHei, Microsoft Yahei;font-size:10.00pt;font-weight:bold">
-                <tspan x="5.2" y="21.0">XH2.54</tspan>
+                <tspan x="5.2" y="12.0">XH2.54</tspan>
+                <tspan x="10.6" y="30.0">10Pin</tspan>
             </text>
         </g>
         <path stroke="#000000" fill="none" transform="translate(639.62,277.69)" id="shape26" stroke-width="2.666670083999634" stroke-linecap="round" d="M.0,.0L57.8,.0"/>
