@@ -47,4 +47,4 @@
 
 
 ### 电气拓扑
-
+![](./imgs/autolabor_navigationkit_3d_electrical_topology.svg)
