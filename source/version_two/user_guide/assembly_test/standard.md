@@ -31,13 +31,15 @@
 
 <video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B62021-%E7%94%B5%E6%BA%90%E6%A8%A1%E5%9D%97.mp4" width="100%" height="100%" controls="controls"></video>
 
-## 集线盒
-
-<video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B62021-%E9%9B%86%E7%BA%BF%E7%9B%92.mp4" width="100%" height="100%" controls="controls"></video>
 
 ### 说明： 因产品升级，电源模块内不再含电池，安装电源模块时请注意电池连线。
 
 ![](./imgs/batteray_intro.png)
+
+## 集线盒
+
+<video class="standard-video" src="http://video.autolabor.com.cn/AutolaborPro1/AP1%E5%AF%BC%E8%88%AA%E5%A5%97%E4%BB%B62021-%E9%9B%86%E7%BA%BF%E7%9B%92.mp4" width="100%" height="100%" controls="controls"></video>
+
 
 ## 单线激光雷达
 
