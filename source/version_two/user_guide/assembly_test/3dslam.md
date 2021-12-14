@@ -2,7 +2,7 @@
 
 ## 电气拓扑结构图
 
-![](./imgs/autolabor_navigationkit_3d_electrical_topology_standard_3dslam.png)
+![](./imgs/autolabor_navigationkit_3d_electrical_topology_3dslam.png)
 
 ## 支架
 
