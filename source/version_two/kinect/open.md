@@ -1,14 +1,15 @@
 # 启动Kinect ROS驱动
 
 步骤：
-* 1.进入工作空间
-* 方法：在终端执行cd catkin_ws
-* 2.配置环境变量
-* 方法：在终端执行source devel/setup.bash
-* 3.启动驱动
-* 方法：在终端执行roslaunch kinect2_bridge kinect2_bridge.launch
 
-![](imgs/structure-chart01.png)
+1.进入工作空间，打开终端执行
+	`cd catkin_ws`
+2.配置环境变量，在终端执行
+	`source devel/setup.bash`
+3.启动驱动，在终端执行
+	`roslaunch kinect2_bridge kinect2_bridge.launch`
+
+![](imgs/kinect-01.png)
 
 # 查看Kinect RGB图像
 
@@ -16,13 +17,15 @@
 
 步骤：
 
-1.进入工作空间
-方法：在终端执行cd catkin_ws
-2.配置环境变量
-方法：在终端执行source devel/setup.bash
-3.在终端执行命令：rosrun image_view image_view image:=/kinect2/sd/image_color
 
-![](imgs/RGB-picture01.png)
+1.进入工作空间，打开终端执行
+	`cd catkin_ws`
+2.配置环境变量，在终端执行
+	`source devel/setup.bash`
+3.在终端执行命令：
+	`rosrun image_view image_view image:=/kinect2/sd/image_color`
+
+
 
 # 查看Kinect 深度图像
 
