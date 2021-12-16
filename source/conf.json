@@ -184,11 +184,24 @@
 										"items":[
 											{
 												"name": "简介",
-												"uri": "version_two/kinect/introduce"
+												"uri": "version_two/user_guide/camera/kinect/introduce"
 											},
 											{
 												"name": "使用",
-												"uri": "version_two/kinect/open"
+												"uri": "version_two/user_guide/camera/kinect/open"
+											}
+										]
+									},
+									{
+										"name":"Vzense(PicoZense)",
+										"items":[
+											{
+												"name": "简介",
+												"uri": "version_two/user_guide/camera/Vzense/intro"
+											},
+											{
+												"name": "使用",
+												"uri": "version_two/user_guide/camera/Vzense/use"
 											}
 										]
 									}
