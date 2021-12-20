@@ -8,7 +8,7 @@
 
 ## 结构图
 
-![](./imgs/vzense2.png)
+![](./imgs/vzense2.jpg)
 
 
 ## 基本参数
