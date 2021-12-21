@@ -78,7 +78,7 @@
 ![](imgs/kinect7.png)
 
 
-2.将下面内容粘贴至launch文件中，保存，关闭
+2.将Kinect驱动粘贴至launch文件中，保存，关闭
 
 ```
 <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch"></include>
