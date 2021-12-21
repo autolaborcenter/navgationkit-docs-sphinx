@@ -58,22 +58,20 @@
 
 0.找到launch文件
 
-```
-AutolaborOS-2.2.1 及以上系统，文件路径:catkin_ws\src\launch\autolabor_navigation_launch\launch\real_environment
+	AutolaborOS-2.2.1 及以上系统，文件路径:catkin_ws\src\launch\autolabor_navigation_launch\launch\real_environment
 
-2.2.1 及以上版本，仅需修改*_base.launch文件
+	2.2.1 及以上版本，仅需修改*_base.launch文件
 
-![](imgs/kinect6.png)
+	![](imgs/kinect6.png)
 
-AutolaborOS-2.2.1 以下系统，文件路径：catkin_ws\src\launch\autolabor_navigation_launch\launch
+	AutolaborOS-2.2.1 以下系统，文件路径：catkin_ws\src\launch\autolabor_navigation_launch\launch
 
-2.2.1 以下版本，需要修改对应应用launch文件
+	2.2.1 以下版本，需要修改对应应用launch文件
 
-![](imgs/kinect5.png)
+	![](imgs/kinect5.png)
 
-OS系统->设置->详细信息可查看系统版本号，如无版本号则为2.2.1以下版本。
+	OS系统->设置->详细信息可查看系统版本号，如无版本号则为2.2.1以下版本。
 
-```
 
 1.打开launch文件，以【second_generation_basic_base.launch】为例，右键打开编辑
 

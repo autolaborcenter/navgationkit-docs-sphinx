@@ -184,11 +184,11 @@
 										"items":[
 											{
 												"name": "简介",
-												"uri": "version_two/user_guide/camera/kinect/introduce"
+												"uri": "version_two/user_guide/camera/kinect/intro"
 											},
 											{
 												"name": "使用",
-												"uri": "version_two/user_guide/camera/kinect/open"
+												"uri": "version_two/user_guide/camera/kinect/use"
 											}
 										]
 									},
