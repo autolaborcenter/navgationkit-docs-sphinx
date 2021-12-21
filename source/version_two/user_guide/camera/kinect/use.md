@@ -101,6 +101,10 @@ OS系统->设置->详细信息可查看系统版本号，如无版本号则为2.
 
 [话题说明](https://github.com/code-iai/iai_kinect2/blob/master/kinect2_bridge/README.md#topics)
 
+## 资料
+
+* [iai_kinect2_github](https://github.com/code-iai/iai_kinect2)
+
 
 
 
