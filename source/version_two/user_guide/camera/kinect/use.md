@@ -56,41 +56,44 @@
 
 以建图为例：
 
-0.找到launch文件
+##### 0.找到launch文件
 
-	AutolaborOS-2.2.1 及以上系统，文件路径:catkin_ws\src\launch\autolabor_navigation_launch\launch\real_environment
+AutolaborOS-2.2.1 及以上系统文件路径:
+`catkin_ws\src\launch\autolabor_navigation_launch\launch\real_environment`
 
-	2.2.1 及以上版本，仅需修改*_base.launch文件
+2.2.1 及以上版本，仅需修改*_base.launch文件
 
-	![](imgs/kinect6.png)
+![](imgs/kinect6.png)
 
-	AutolaborOS-2.2.1 以下系统，文件路径：catkin_ws\src\launch\autolabor_navigation_launch\launch
+AutolaborOS-2.2.1 以下系统文件路径：
 
-	2.2.1 以下版本，需要修改对应应用launch文件
+`catkin_ws\src\launch\autolabor_navigation_launch\launch`
 
-	![](imgs/kinect5.png)
+2.2.1 以下版本，需要修改对应应用launch文件
 
-	OS系统->设置->详细信息可查看系统版本号，如无版本号则为2.2.1以下版本。
+![](imgs/kinect5.png)
+
+注：OS系统->设置->详细信息可查看系统版本号，如无版本号则为2.2.1以下版本。
 
 
-1.打开launch文件，以【second_generation_basic_base.launch】为例，右键打开编辑
+##### 1.打开launch文件，以【second_generation_basic_base.launch】为例，右键打开编辑
 
 ![](imgs/kinect7.png)
 
 
-2.将Kinect驱动粘贴至launch文件中，保存，关闭
+##### 2.将Kinect驱动粘贴至launch文件中，保存，关闭
 
 ```
 <include file="$(find kinect2_bridge)/launch/kinect2_bridge.launch"></include>
 ```
 
-3.启动建图
+##### 3.启动建图
 
-4.添加图像话题
+##### 4.添加图像话题
 
 点击左下角 `add`，选择 By topic -> /qhd -> image_color -> Image -> OK ，保存
 
-5.添加深度话题
+##### 5.添加深度话题
 
 点击左下角 `add`，选择 By topic -> /qhd -> image_depth -> Image -> OK ，保存
 
