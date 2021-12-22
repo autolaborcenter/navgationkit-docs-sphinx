@@ -72,7 +72,7 @@ Kinec集线器的数据线另一端必须插在工控机 **USB3.0** 接口上，
 2. 把 usb-hub 上所有设备都拔掉
 
 3. terminal 中执行
-      `$ vim /etc/udev/rules/99-position.rules`
+      `$ vim /etc/udev/rules.d/99-position.rules`
       注：box_1 为前雷达，box_2 为后雷达，box_3 为定位标签，autolabor_pro1 为 AP1 机器人
 
 4. 将 hub上的设备依次插上保持不动，每插一个在 terminal 中执行一次

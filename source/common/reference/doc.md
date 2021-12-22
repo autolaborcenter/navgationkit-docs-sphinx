@@ -1,7 +1,10 @@
 # 设备参考资料
 
+* 思岚™ A2 激光雷达：
+  * [产品详情](https://www.slamtec.com/cn/Lidar/A2)
+
 * 砝石™ FS-D10 激光雷达：
-  * [产品详情](http://www.faselase.com/chanpinshuomingshuxiazai.html)
+  * [产品详情](http://www.faselase.com/erweijiguangleida/9-10.html)
 
 * 乐动™ LD19 激光雷达
   * [产品详情](https://www.ldrobot.com/product/111)
