@@ -161,6 +161,12 @@ pbstream 文件本质上是一个压缩的 protobuf 文件，其中包含 Cartog
 
 <h5 id="11">11. （接上问）如果一定要手动修改地图，怎么办？</h5>
 
+注：AutolaborOS2.2.4及以上版本实现了3D SLAM地图修改（2D SLAM 仍无法修改），修改方法参见3D SLAM使用教程。
+
+OS系统->设置->详细信息可查看系统版本号，如无版本号则为2.2.1以下版本。
+
+***
+
 由上问可知 pbstream 是不可编辑的，但如果因为环境的原因，建图效果不是很好，一定要手动修改地图。
 
 有2点要提前知晓：
@@ -239,6 +245,12 @@ pbstream 文件本质上是一个压缩的 protobuf 文件，其中包含 Cartog
 
 修改以下文件：
 
+OS2.2.1及以上版本路径：
+
+`catkin_ws\src\launch\autolabor_navigation_launch\params\navigation\local_planer\navigation_teb_local_planner_params.yaml`
+
+OS2.2.1以下版本路径：
+
 `catkin_ws\src\launch\autolabor_navigation_launch\two_laser_navigation_param\teb_local_planner_params.yaml`
 
 ```
@@ -258,7 +270,13 @@ max_vel_theta: 0.6
 
 修改以下文件：
 
-`/src/launch/autolabor_navigation_launch/two_laser_navigation_param/teb_local_planner_params.yaml`
+OS2.2.1及以上版本路径：
+
+`catkin_ws\src\launch\autolabor_navigation_launch\params\navigation\local_planer\navigation_teb_local_planner_params.yaml`
+
+OS2.2.1以下版本路径：
+
+`catkin_ws\src\launch\autolabor_navigation_launch\two_laser_navigation_param\teb_local_planner_params.yaml`
 
 参考下图：
 

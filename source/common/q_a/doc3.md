@@ -111,8 +111,14 @@ Dashboard 软件由硬件方提供，在不同系统中兼容性有差异，经�
 
 修改以下文件：
 
-`src/launch/autolabor_navigation_launch/two_laser_tracking_param/teb_local_planner_params.yaml`
 
+OS2.2.1及以上版本路径：
+
+`catkin_ws\src\launch\autolabor_navigation_launch\params\navigation\local_planer\tracking_teb_local_planner_params.yaml`
+
+OS2.2.1以下版本路径：
+
+`catkin_ws\src\launch\autolabor_navigation_launch\two_laser_tracking_param\teb_local_planner_params.yaml`
 
 ```
 max_vel_x: 0.2 //机器人的最大平移速度
