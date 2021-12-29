@@ -79,7 +79,7 @@ RVIZ工具打开，能够看到地图中的 AP1。
 3D SLAM 地图文件：
 
 ```
-map.pbstream: 地图文件，用于定位，不可修改
+map_3d.pbstream: 地图文件，用于定位，不可修改
 map_3d.pgm：地图文件，用于导航，可修改
 map_3d.yaml ： pgm 文件的解释文件
 ```
