@@ -211,6 +211,31 @@
 						]
 					},
 					{
+						"name": "二次开发",
+						"items":[
+							{
+								"name": "AutolaborOS",
+								"uri": "version_two/development/OSintro"
+							},
+							{
+								"name": "激光SLAM",
+								"uri": "version_two/development/slamintro"
+							},
+							{
+								"name": "激光SLAM-多点导航",
+								"uri": "version_two/development/multiGoalintro"
+							},
+							{
+								"name": "视觉SLAM/VSLAM",
+								"uri": "version_two/development/vslamintro"
+							},
+							{
+								"name": "定位循迹",
+								"uri": "version_two/development/locationintro"
+							}
+						]
+					},
+					{
 						"name": "常见问题",
 						"items":[
 								{
