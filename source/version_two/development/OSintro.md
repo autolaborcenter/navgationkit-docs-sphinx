@@ -12,7 +12,6 @@ AutolaborOS 是由 Autolabor 推出的免费开源机器人操作系统，基于
 
 OS在AP1上已经实现了机器人自主导航（2D/3D SLAM 单目标/多目标）、自动循迹、远程遥控等功能。
 
-Autolabor Pro1 机器人出厂都已预装AutolaborOS。
 
 ## 源码说明
 
