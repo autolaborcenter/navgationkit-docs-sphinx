@@ -1,29 +1,20 @@
 # AutolaborOS 
 
-## AutolaborOS 是什么
+## 简介
 
-AutolaborOS 由 Autolabor 推出的免费开源机器人操作系统，基于 ubuntu18.04 与 ROS Melodic 开发而成，包含 ROS Melodic 、常用 ROS包（Cartographer、Gmapping、Navigation ···），机器人底盘与传感器驱动包，机器人仿真应用，以及激光SLAM导航、自动巡迹导航应用等。
+AutolaborOS 是由 Autolabor 推出的免费开源机器人操作系统，基于 ubuntu18.04 与 ROS Melodic 开发而成，包含 ROS Melodic 、常用 ROS包（Cartographer、Gmapping、Navigation ···），机器人底盘与传感器驱动包，机器人仿真应用，以及激光SLAM导航、自动巡迹导航应用等。
 
-使用 AutolaborOS 调试机器人，你甚至都不用安装在电脑上，U盘启动，随身携带，即插即用。
+解决了繁琐的 ROS 环境安装问题，节省时间成本，降低技术壁垒。使用该系统学习ROS、开发机器人、实现自己的算法，做一些有趣的事情。
 
-## 目的
-
-为解决繁琐的 ROS 环境安装问题，节省时间成本，降低技术壁垒。使用该系统学习ROS、开发机器人、实现自己的算法，做一些有趣的事情。
-
-## AutolaborOS 能实现哪些功能
-
-AutolaborOS 秉持小而实用的原则，对原生的Ubuntu系统的功能模块进行了精简，在原有的基础上增加了ROS开发中使用到的常见功能包。
+秉持小而实用的原则，对原生的Ubuntu系统的功能模块进行了精简，在原有的基础上增加了ROS开发中使用到的常见功能包。
 
 既保证了简洁性，又增加了实用性。按需构建，有非常良好的可扩展性。
 
-现AutolaborOS已有的功能：
+OS在AP1上已经实现了机器人自主导航（2D/3D SLAM 单目标/多目标）、自动循迹、远程遥控等功能。
 
-* 2D/3D SLAM 建图导航（单目标/多目标）
-* 自动循迹
-* 多车跟随(模拟器)
-* 模拟器
+Autolabor Pro1 机器人出厂都已预装AutolaborOS。
 
-## 目录说明
+## 源码说明
 
 注：以下内容基于AutolaborOS 2.2.4
 
