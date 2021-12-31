@@ -102,7 +102,7 @@ Cartographer 2D 建图 launch配置示例
 |3| 目标机器人位姿| 给机器人制定一个目标点|  |[move_base](http://wiki.ros.org/move_base/)|
 |4| 当前机器人位姿 地图数据 目标机器人位姿| 根据机器人当前位姿与地图数据，进行全局规划路线| 路径数据（初步预估导航路线） |[global_planner(dijkstra) ](http://wiki.ros.org/global_planner)|
 |5| 路径数据 地图数据  前雷达数据 后雷达数据 | 根据规划路径开始导航，进行过程中随着实际环境、障碍物变化，进行局部路径规划，实时避障| 局部路径规划  避障 |[costmap_2d ](http://wiki.ros.org/cost_map)[teb_local_planner](http://wiki.ros.org/teb_local_planner)|
-|6| 速度信息 /cmd_vel | 向底发送速度命令 |  |[move_base](http://wiki.ros.org/move_base/)|
+|6| 速度信息 /cmd_vel | 向底层发送速度命令 |  |[move_base](http://wiki.ros.org/move_base/)|
 
 说明：
 
@@ -203,7 +203,7 @@ Cartographer 3D 建图 launch配置示例
 |3| 目标机器人位姿| 给机器人制定一个目标点|  |[move_base](http://wiki.ros.org/move_base/)|
 |4| 当前机器人位姿 地图数据 目标机器人位姿| 根据机器人当前位姿与地图数据，进行全局规划路线| 路径数据（初步预估导航路线） |[global_planner(dijkstra) ](http://wiki.ros.org/global_planner)|
 |5| 路径数据 地图数据  前雷达数据 后雷达数据 多线雷达数据 | 根据规划路径开始导航，进行过程中随着实际环境、障碍物变化，进行局部路径规划，实时避障| 局部路径规划  避障 |[costmap_2d ](http://wiki.ros.org/cost_map)[teb_local_planner](http://wiki.ros.org/teb_local_planner)|
-|6| 速度信息 /cmd_vel | 向底发送速度命令 |  |[move_base](http://wiki.ros.org/move_base/)|
+|6| 速度信息 /cmd_vel | 向底层发送速度命令 |  |[move_base](http://wiki.ros.org/move_base/)|
 
 说明：
 
