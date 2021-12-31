@@ -8,7 +8,7 @@
 2. VSLAM系统及相关资料介绍
 3. SLAM框架
 	1. SLAM的基本过程
-	2. SLAM的主要模块
+	2. VSLAM的主要模块
 
   
 ## 1.SLAM技术介绍

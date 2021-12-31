@@ -21,7 +21,7 @@ SLAM 技术解决的是，我在哪里？（**定位**Localization ）我周围�
 
 SLAM 的应用很广泛，有扫地机器人、无人驾驶汽车、无人机，三维场景重建等。
 
-根据使用传感器不同，SLAM的可分为激光SLAM和视觉SLAM（VSLAM），本文介绍的是激光SLAM，对视觉SLAM相关知识感兴趣的可以[看这里]()。
+根据使用传感器不同，SLAM的可分为激光SLAM和视觉SLAM（VSLAM），本文介绍的是激光SLAM，对视觉SLAM相关知识感兴趣的可以[看这里](/usedoc/navigationKit2/version_two/development/vslamintro)。
 
 
 ## 基于激光SLAM的机器人自主导航
@@ -68,7 +68,7 @@ Autolabor SLAM 导航使用的是谷歌开源的 [Cartographer](https://github.c
   
 | 步骤 | 输入数据  | 操作  |  输出数据 | 使用ROS包 | 
 |--|--|--|--|--|
-|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand?hmsr=csdn)|
+|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand)|
 |2 | 前雷达数据 后雷达数据 | 过滤并融合前后激光雷达采集的数据，得到机器人周围环境点云数据| 雷达点云数据 | [cartographer_ros](https://google-cartographer-ros.readthedocs.io/en/latest/)  [laser_filters](http://wiki.ros.org/laser_filters) |
 |3 | 里程计数据 点云数据 | 点云匹配| 相对位姿数据  子地图数据 |   [cartographer_ros](https://google-cartographer-ros.readthedocs.io/en/latest/)|
 |4 | 相对位姿数据  子地图数据 | 回环检测，得到子地图拼接的全地图数据 | 地图数据 |   [cartographer_ros](https://google-cartographer-ros.readthedocs.io/en/latest/)|
@@ -97,7 +97,7 @@ Cartographer 2D 建图 launch配置示例
 
 | 步骤 | 输入数据  | 操作  |  输出数据 | 使用ROS包 | 
 |--|--|--|--|--|
-|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand?hmsr=csdn)|
+|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand)|
 |2|前雷达数据 后雷达数据 里程计数据 地图数据|将机器人的实时数据与已构建的地图进行匹配|当前机器人在环境中的位姿| [cartographer_ros](https://google-cartographer-ros.readthedocs.io/en/latest/)|
 |3| 目标机器人位姿| 给机器人制定一个目标点|  |[move_base](http://wiki.ros.org/move_base/)|
 |4| 当前机器人位姿 地图数据 目标机器人位姿| 根据机器人当前位姿与地图数据，进行全局规划路线| 路径数据（初步预估导航路线） |[global_planner(dijkstra) ](http://wiki.ros.org/global_planner)|
@@ -169,7 +169,7 @@ Cartographer 2D 导航 launch配置示例
   
 | 步骤 | 输入数据  | 操作  |  输出数据 | 使用ROS包 | 
 |--|--|--|--|--|
-|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand?hmsr=csdn)|
+|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand)|
 |2 | 多线雷达数据 惯导数据 里程计数据  | 点云匹配| 相对位姿数据  子地图数据 |   [cartographer_ros](https://google-cartographer-ros.readthedocs.io/en/latest/)|
 |3 | 相对位姿数据  子地图数据 | 回环检测，得到子地图拼接的全地图数据 | 地图数据 |   [cartographer_ros](https://google-cartographer-ros.readthedocs.io/en/latest/)|
 
@@ -198,7 +198,7 @@ Cartographer 3D 建图 launch配置示例
 
 | 步骤 | 输入数据  | 操作  |  输出数据 | 使用ROS包 | 
 |--|--|--|--|--|
-|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand?hmsr=csdn)|
+|1 | 左编码器数据 右编码器数据 | 使用运动模型计算编码器数据，得到符合ROS标准的里程计数据|  里程计数据| [autolabor_pro_driver](http://www.autolabor.com.cn/usedoc/ap1/sendCommand)|
 |2|多线雷达数据 惯导数据 里程计数据 地图数据|将机器人的实时数据与已构建的地图进行匹配|当前机器人在环境中的位姿| [cartographer_ros](https://google-cartographer-ros.readthedocs.io/en/latest/)|
 |3| 目标机器人位姿| 给机器人制定一个目标点|  |[move_base](http://wiki.ros.org/move_base/)|
 |4| 当前机器人位姿 地图数据 目标机器人位姿| 根据机器人当前位姿与地图数据，进行全局规划路线| 路径数据（初步预估导航路线） |[global_planner(dijkstra) ](http://wiki.ros.org/global_planner)|
