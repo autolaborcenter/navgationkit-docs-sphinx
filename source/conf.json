@@ -207,7 +207,11 @@
 									}
 									
 								]
-							}
+							},
+							{
+								"name": "底盘标定",
+								"uri": "version_two/user_guide/quick_start/robot_calibration"
+							},
 						]
 					},
 					{
