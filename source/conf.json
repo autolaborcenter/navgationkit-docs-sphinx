@@ -146,6 +146,10 @@
 										"uri": "version_two/location/guide/doc"
 									},
 									{
+										"name": "进阶使用",
+										"uri": "version_two/location/guide/advanced"
+									},
+									{
 										"name": "了解定位系统",
 										"uri": "version_two/location/marvelmind/doc"
 									},
