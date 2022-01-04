@@ -209,7 +209,7 @@
 								]
 							},
 							{
-								"name": "底盘标定",
+								"name": "里程计标定",
 								"uri": "version_two/user_guide/quick_start/robot_calibration"
 							},
 						]
