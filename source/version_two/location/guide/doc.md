@@ -64,6 +64,8 @@ Power 打开后，如定位标签有电，Led2 灯会以大概 10s 的频率闪�
 
 ![](imgs/map-10.png)
 
+将Dashboard软件安装在**非车载电脑**的电脑(Windows系统)上，该软件仅在搭建定位系统时使用，搭建完成后可关闭。
+
 打开 Dashboard 软件，使用 micro USB 线连接设备到电脑，Dashboard 识别后将会显示配置信息。
 
 4. 确认配置
