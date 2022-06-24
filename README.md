@@ -2,6 +2,9 @@
 
 本工程是 Autolabor 导航套件官方使用手册的 **`Sphinx` 工程**。
 
+## 官方地址
+<http://www.autolabor.com.cn/usedoc/navigationKit1>
+
 ## 克隆项目
 
 ```shell
