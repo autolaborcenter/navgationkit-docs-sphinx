@@ -60,7 +60,7 @@ Power 打开后，如定位标签有电，Led2 灯会以大概 10s 的频率闪�
 
 ![](imgs/led.png)
 
-3. 打开软件——Dashborad（[下载](http://www.autolabor.com.cn/download)）
+3. 打开软件——Dashborad（[下载](http://www.autolabor.com.cn/download)）（2022年6月前下载6.04版本，6月后下载7.04版本）
 
 ![](imgs/map-10.png)
 
