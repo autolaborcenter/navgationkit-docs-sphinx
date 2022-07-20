@@ -161,7 +161,28 @@
 							},
 							{
 								"name": "RTK循迹",
-								"uri": "version_two/rtk/location"
+								"items": [
+									{
+										"name": "安装设置",
+										"uri": "version_two/rtk/install"
+									},
+									{
+										"name": "使用步骤",
+										"uri": "version_two/rtk/use"
+									},
+									{
+										"name": "工作原理",
+										"uri": "version_two/rtk/principle"
+									},
+									{
+										"name": "开发引导",
+										"uri": "version_two/rtk/develop"
+									},
+									{
+										"name": "常见问题",
+										"uri": "version_two/rtk/faq"
+									}
+								]
 							},
 							{
 								"name": "远程连接",
