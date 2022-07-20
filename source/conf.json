@@ -160,6 +160,10 @@
 								]
 							},
 							{
+								"name": "RTK循迹",
+								"uri": "version_two/rtk/location"
+							},
+							{
 								"name": "远程连接",
 								"items": [
 									{
